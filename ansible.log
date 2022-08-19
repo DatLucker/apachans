@@ -1,0 +1,959 @@
+2022-07-12 11:42:59,970 p=45456 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to 
+allow bad characters in group names by default, this will change, but still be 
+user configurable on deprecation. This feature will be removed in version 2.10.
+ Deprecation warnings can be disabled by setting deprecation_warnings=False in 
+ansible.cfg.
+2022-07-12 11:42:59,970 p=45456 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use
+-vvvv to see details
+
+2022-07-12 11:42:59,987 p=45456 u=anevdokimov n=ansible |   hosts (1):
+2022-07-12 11:42:59,987 p=45456 u=anevdokimov n=ansible |     1nextgis01.dev.aorti.tech
+2022-07-12 11:43:35,523 p=45538 u=anevdokimov n=ansible | ansible 2.9.6
+  config file = /home/anevdokimov/Documents/GIT/apache2-ans/ansible.cfg
+  configured module search path = ['/home/anevdokimov/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python3/dist-packages/ansible
+  executable location = /usr/bin/ansible
+  python version = 3.8.10 (default, Mar 15 2022, 12:22:08) [GCC 9.4.0]
+2022-07-12 11:43:35,523 p=45538 u=anevdokimov n=ansible | Using /home/anevdokimov/Documents/GIT/apache2-ans/ansible.cfg as config file
+2022-07-12 11:43:35,529 p=45538 u=anevdokimov n=ansible | setting up inventory plugins
+2022-07-12 11:43:35,541 p=45538 u=anevdokimov n=ansible | host_list declined parsing /home/anevdokimov/Documents/GIT/apache2-ans/inventory as it did not pass its verify_file() method
+2022-07-12 11:43:35,546 p=45538 u=anevdokimov n=ansible | script declined parsing /home/anevdokimov/Documents/GIT/apache2-ans/inventory as it did not pass its verify_file() method
+2022-07-12 11:43:35,546 p=45538 u=anevdokimov n=ansible | auto declined parsing /home/anevdokimov/Documents/GIT/apache2-ans/inventory as it did not pass its verify_file() method
+2022-07-12 11:43:35,555 p=45538 u=anevdokimov n=ansible | Not replacing invalid character(s) "{'1'}" in group name (1nextgis01)
+2022-07-12 11:43:35,555 p=45538 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to 
+allow bad characters in group names by default, this will change, but still be 
+user configurable on deprecation. This feature will be removed in version 2.10.
+ Deprecation warnings can be disabled by setting deprecation_warnings=False in 
+ansible.cfg.
+2022-07-12 11:43:35,557 p=45538 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use
+-vvvv to see details
+
+2022-07-12 11:43:35,557 p=45538 u=anevdokimov n=ansible | Not replacing invalid character(s) "{'1'}" in group name (1nextgis01)
+2022-07-12 11:43:35,562 p=45538 u=anevdokimov n=ansible | Parsed /home/anevdokimov/Documents/GIT/apache2-ans/inventory inventory source with ini plugin
+2022-07-12 11:43:35,567 p=45538 u=anevdokimov n=ansible | ERROR! No argument passed to command module
+2022-07-12 11:44:24,796 p=45657 u=anevdokimov n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost
+does not match 'all'
+
+2022-07-12 11:44:24,796 p=45657 u=anevdokimov n=ansible |   hosts (0):
+2022-07-12 11:44:32,559 p=45667 u=anevdokimov n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost
+does not match 'all'
+
+2022-07-12 11:44:32,560 p=45667 u=anevdokimov n=ansible |   hosts (0):
+2022-07-12 11:44:43,329 p=45683 u=anevdokimov n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost
+does not match 'all'
+
+2022-07-12 11:44:43,329 p=45683 u=anevdokimov n=ansible |   hosts (0):
+2022-07-12 11:44:53,319 p=45719 u=anevdokimov n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost
+does not match 'all'
+
+2022-07-12 11:44:53,319 p=45719 u=anevdokimov n=ansible |   hosts (0):
+2022-07-12 11:45:04,367 p=45748 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to allow bad characters in group
+ names by default, this will change, but still be user configurable on deprecation. This feature will be 
+removed in version 2.10. Deprecation warnings can be disabled by setting deprecation_warnings=False in 
+ansible.cfg.
+2022-07-12 11:45:04,368 p=45748 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2022-07-12 11:45:04,379 p=45748 u=anevdokimov n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost
+does not match 'all'
+
+2022-07-12 11:45:04,384 p=45748 u=anevdokimov n=ansible |   hosts (0):
+2022-07-12 11:45:15,673 p=45770 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to allow bad characters in group
+ names by default, this will change, but still be user configurable on deprecation. This feature will be 
+removed in version 2.10. Deprecation warnings can be disabled by setting deprecation_warnings=False in 
+ansible.cfg.
+2022-07-12 11:45:15,674 p=45770 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2022-07-12 11:45:15,679 p=45770 u=anevdokimov n=ansible |   hosts (1):
+2022-07-12 11:45:15,681 p=45770 u=anevdokimov n=ansible |     1nextgis01.dev.aorti.tech
+2022-07-12 11:46:15,787 p=53405 u=anevdokimov n=ansible | [WARNING]: Unable to parse /home/anevdokimov/Documents/GIT/apache2-ans/ansible/hosts.ini as an inventory
+source
+
+2022-07-12 11:46:15,787 p=53405 u=anevdokimov n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2022-07-12 11:46:15,795 p=53405 u=anevdokimov n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost
+does not match 'all'
+
+2022-07-12 11:46:15,795 p=53405 u=anevdokimov n=ansible |   hosts (0):
+2022-07-12 11:46:34,507 p=53445 u=anevdokimov n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost
+does not match 'all'
+
+2022-07-12 11:46:34,507 p=53445 u=anevdokimov n=ansible |   hosts (0):
+2022-07-12 11:46:40,411 p=53478 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to allow bad characters in group
+ names by default, this will change, but still be user configurable on deprecation. This feature will be 
+removed in version 2.10. Deprecation warnings can be disabled by setting deprecation_warnings=False in 
+ansible.cfg.
+2022-07-12 11:46:40,411 p=53478 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2022-07-12 11:46:40,414 p=53478 u=anevdokimov n=ansible |   hosts (1):
+2022-07-12 11:46:40,415 p=53478 u=anevdokimov n=ansible |     1nextgis01.dev.aorti.tech
+2022-07-12 11:47:00,169 p=53509 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to allow bad characters in group
+ names by default, this will change, but still be user configurable on deprecation. This feature will be 
+removed in version 2.10. Deprecation warnings can be disabled by setting deprecation_warnings=False in 
+ansible.cfg.
+2022-07-12 11:47:00,170 p=53509 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2022-07-12 11:47:01,389 p=53509 u=anevdokimov n=ansible | 1nextgis01.dev.aorti.tech | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: anevdokimov@1nextgis01.dev.aorti.tech: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).",
+    "unreachable": true
+}
+2022-07-12 11:47:18,545 p=53553 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to allow bad characters in group
+ names by default, this will change, but still be user configurable on deprecation. This feature will be 
+removed in version 2.10. Deprecation warnings can be disabled by setting deprecation_warnings=False in 
+ansible.cfg.
+2022-07-12 11:47:18,545 p=53553 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2022-07-12 11:47:20,733 p=53553 u=anevdokimov n=ansible | 1nextgis01.dev.aorti.tech | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2022-07-12 12:11:37,592 p=92835 u=anevdokimov n=ansible | ansible 2.9.6
+  config file = /home/anevdokimov/Documents/GIT/apache2-ans/ansible.cfg
+  configured module search path = ['/home/anevdokimov/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python3/dist-packages/ansible
+  executable location = /usr/bin/ansible
+  python version = 3.8.10 (default, Mar 15 2022, 12:22:08) [GCC 9.4.0]
+2022-07-12 12:11:37,593 p=92835 u=anevdokimov n=ansible | Using /home/anevdokimov/Documents/GIT/apache2-ans/ansible.cfg as config file
+2022-07-12 12:11:49,675 p=92835 u=anevdokimov n=ansible | setting up inventory plugins
+2022-07-12 12:11:49,683 p=92835 u=anevdokimov n=ansible | host_list declined parsing /home/anevdokimov/Documents/GIT/apache2-ans/inventory as it did not pass its verify_file() method
+2022-07-12 12:11:49,693 p=92835 u=anevdokimov n=ansible | script declined parsing /home/anevdokimov/Documents/GIT/apache2-ans/inventory as it did not pass its verify_file() method
+2022-07-12 12:11:49,693 p=92835 u=anevdokimov n=ansible | auto declined parsing /home/anevdokimov/Documents/GIT/apache2-ans/inventory as it did not pass its verify_file() method
+2022-07-12 12:11:49,701 p=92835 u=anevdokimov n=ansible | Not replacing invalid character(s) "{'1'}" in group name (1nextgis01)
+2022-07-12 12:11:49,701 p=92835 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to allow bad characters in group
+ names by default, this will change, but still be user configurable on deprecation. This feature will be 
+removed in version 2.10. Deprecation warnings can be disabled by setting deprecation_warnings=False in 
+ansible.cfg.
+2022-07-12 12:11:49,702 p=92835 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2022-07-12 12:11:49,704 p=92835 u=anevdokimov n=ansible | Not replacing invalid character(s) "{'1'}" in group name (1nextgis01)
+2022-07-12 12:11:49,705 p=92835 u=anevdokimov n=ansible | Parsed /home/anevdokimov/Documents/GIT/apache2-ans/inventory inventory source with ini plugin
+2022-07-12 12:11:49,725 p=92835 u=anevdokimov n=ansible | Loading callback plugin minimal of type stdout, v2.0 from /usr/lib/python3/dist-packages/ansible/plugins/callback/minimal.py
+2022-07-12 12:11:49,918 p=92835 u=anevdokimov n=ansible | META: ran handlers
+2022-07-12 12:11:50,009 p=92880 u=anevdokimov n=ansible | <1nextgis01.dev.aorti.tech> ESTABLISH SSH CONNECTION FOR USER: None
+2022-07-12 12:11:50,151 p=92880 u=anevdokimov n=ansible | <1nextgis01.dev.aorti.tech> SSH: EXEC sshpass -d12 ssh -vvv -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -o LogLevel=ERROR -o ControlMaster=auto -o ControlPersist=60s -o StrictHostKeyChecking=no -o ConnectTimeout=10 -o ControlPath=/home/anevdokimov/.ansible/cp/c349b71437 1nextgis01.dev.aorti.tech '/bin/sh -c '"'"'echo ~ && sleep 0'"'"''
+2022-07-12 12:11:52,005 p=92880 u=anevdokimov n=ansible | <1nextgis01.dev.aorti.tech> (0, b'/home/anevdokimov\n', b'OpenSSH_8.2p1 Ubuntu-4ubuntu0.5, OpenSSL 1.1.1f  31 Mar 2020\r\ndebug1: Reading configuration data /home/anevdokimov/.ssh/config\r\ndebug1: Reading configuration data /etc/ssh/ssh_config\r\ndebug1: /etc/ssh/ssh_config line 19: include /etc/ssh/ssh_config.d/*.conf matched no files\r\ndebug1: /etc/ssh/ssh_config line 21: Applying options for *\r\ndebug1: auto-mux: Trying existing master\r\ndebug1: Control socket "/home/anevdokimov/.ansible/cp/c349b71437" does not exist\r\ndebug2: resolving "1nextgis01.dev.aorti.tech" port 22\r\ndebug2: ssh_connect_direct\r\ndebug1: Connecting to 1nextgis01.dev.aorti.tech [172.23.193.20] port 22.\r\ndebug2: fd 4 setting O_NONBLOCK\r\ndebug1: fd 4 clearing O_NONBLOCK\r\ndebug1: Connection established.\r\ndebug3: timeout: 9999 ms remain after connect\r\ndebug1: identity file /home/anevdokimov/.ssh/id_rsa type 0\r\ndebug1: identity file /home/anevdokimov/.ssh/id_rsa-cert type -1\r\ndebug1: identity file /home/anevdokimov/.ssh/id_dsa type -1\r\ndebug1: identity file /home/anevdokimov/.ssh/id_dsa-cert type -1\r\ndebug1: identity file /home/anevdokimov/.ssh/id_ecdsa type -1\r\ndebug1: identity file /home/anevdokimov/.ssh/id_ecdsa-cert type -1\r\ndebug1: identity file /home/anevdokimov/.ssh/id_ecdsa_sk type -1\r\ndebug1: identity file /home/anevdokimov/.ssh/id_ecdsa_sk-cert type -1\r\ndebug1: identity file /home/anevdokimov/.ssh/id_ed25519 type -1\r\ndebug1: identity file /home/anevdokimov/.ssh/id_ed25519-cert type -1\r\ndebug1: identity file /home/anevdokimov/.ssh/id_ed25519_sk type -1\r\ndebug1: identity file /home/anevdokimov/.ssh/id_ed25519_sk-cert type -1\r\ndebug1: identity file /home/anevdokimov/.ssh/id_xmss type -1\r\ndebug1: identity file /home/anevdokimov/.ssh/id_xmss-cert type -1\r\ndebug1: Local version string SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.5\r\ndebug1: Remote protocol version 2.0, remote software version OpenSSH_7.4\r\ndebug1: match: OpenSSH_7.4 pat OpenSSH_7.0*,OpenSSH_7.1*,OpenSSH_7.2*,OpenSSH_7.3*,OpenSSH_7.4*,OpenSSH_7.5*,OpenSSH_7.6*,OpenSSH_7.7* compat 0x04000002\r\ndebug2: fd 4 setting O_NONBLOCK\r\ndebug1: Authenticating to 1nextgis01.dev.aorti.tech:22 as \'anevdokimov\'\r\ndebug3: hostkeys_foreach: reading file "/dev/null"\r\ndebug3: send packet: type 20\r\ndebug1: SSH2_MSG_KEXINIT sent\r\ndebug3: receive packet: type 20\r\ndebug1: SSH2_MSG_KEXINIT received\r\ndebug2: local client KEXINIT proposal\r\ndebug2: KEX algorithms: curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group14-sha256,ext-info-c\r\ndebug2: host key algorithms: ecdsa-sha2-nistp256-cert-v01@openssh.com,ecdsa-sha2-nistp384-cert-v01@openssh.com,ecdsa-sha2-nistp521-cert-v01@openssh.com,sk-ecdsa-sha2-nistp256-cert-v01@openssh.com,ssh-ed25519-cert-v01@openssh.com,sk-ssh-ed25519-cert-v01@openssh.com,rsa-sha2-512-cert-v01@openssh.com,rsa-sha2-256-cert-v01@openssh.com,ssh-rsa-cert-v01@openssh.com,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,sk-ecdsa-sha2-nistp256@openssh.com,ssh-ed25519,sk-ssh-ed25519@openssh.com,rsa-sha2-512,rsa-sha2-256,ssh-rsa\r\ndebug2: ciphers ctos: chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com\r\ndebug2: ciphers stoc: chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com\r\ndebug2: MACs ctos: umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1\r\ndebug2: MACs stoc: umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1\r\ndebug2: compression ctos: none,zlib@openssh.com,zlib\r\ndebug2: compression stoc: none,zlib@openssh.com,zlib\r\ndebug2: languages ctos: \r\ndebug2: languages stoc: \r\ndebug2: first_kex_follows 0 \r\ndebug2: reserved 0 \r\ndebug2: peer server KEXINIT proposal\r\ndebug2: KEX algorithms: curve25519-sha256,curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha256,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1\r\ndebug2: host key algorithms: ssh-rsa,rsa-sha2-512,rsa-sha2-256,ecdsa-sha2-nistp256,ssh-ed25519\r\ndebug2: ciphers ctos: chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com,aes128-cbc,aes192-cbc,aes256-cbc,blowfish-cbc,cast128-cbc,3des-cbc\r\ndebug2: ciphers stoc: chacha20-poly1305@openssh.com,aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com,aes128-cbc,aes192-cbc,aes256-cbc,blowfish-cbc,cast128-cbc,3des-cbc\r\ndebug2: MACs ctos: umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1\r\ndebug2: MACs stoc: umac-64-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-64@openssh.com,umac-128@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1\r\ndebug2: compression ctos: none,zlib@openssh.com\r\ndebug2: compression stoc: none,zlib@openssh.com\r\ndebug2: languages ctos: \r\ndebug2: languages stoc: \r\ndebug2: first_kex_follows 0 \r\ndebug2: reserved 0 \r\ndebug1: kex: algorithm: curve25519-sha256\r\ndebug1: kex: host key algorithm: ecdsa-sha2-nistp256\r\ndebug1: kex: server->client cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none\r\ndebug1: kex: client->server cipher: chacha20-poly1305@openssh.com MAC: <implicit> compression: none\r\ndebug3: send packet: type 30\r\ndebug1: expecting SSH2_MSG_KEX_ECDH_REPLY\r\ndebug3: receive packet: type 31\r\ndebug1: Server host key: ecdsa-sha2-nistp256 SHA256:lvc9XpnIkbM+PzyrV1+pVZdpquWsAoyAHCFPgC6u3GA\r\ndebug3: hostkeys_foreach: reading file "/dev/null"\r\ndebug3: hostkeys_foreach: reading file "/dev/null"\r\nWarning: Permanently added \'1nextgis01.dev.aorti.tech,172.23.193.20\' (ECDSA) to the list of known hosts.\r\ndebug3: send packet: type 21\r\ndebug2: set_newkeys: mode 1\r\ndebug1: rekey out after 134217728 blocks\r\ndebug1: SSH2_MSG_NEWKEYS sent\r\ndebug1: expecting SSH2_MSG_NEWKEYS\r\ndebug3: receive packet: type 21\r\ndebug1: SSH2_MSG_NEWKEYS received\r\ndebug2: set_newkeys: mode 0\r\ndebug1: rekey in after 134217728 blocks\r\ndebug1: Will attempt key: /home/anevdokimov/.ssh/id_rsa RSA SHA256:45YUcRhViNEl3cAxtUmNYkQSHSLmSY4fT6InRLOeWRA agent\r\ndebug1: Will attempt key: /home/anevdokimov/.ssh/id_dsa \r\ndebug1: Will attempt key: /home/anevdokimov/.ssh/id_ecdsa \r\ndebug1: Will attempt key: /home/anevdokimov/.ssh/id_ecdsa_sk \r\ndebug1: Will attempt key: /home/anevdokimov/.ssh/id_ed25519 \r\ndebug1: Will attempt key: /home/anevdokimov/.ssh/id_ed25519_sk \r\ndebug1: Will attempt key: /home/anevdokimov/.ssh/id_xmss \r\ndebug2: pubkey_prepare: done\r\ndebug3: send packet: type 5\r\ndebug3: receive packet: type 7\r\ndebug1: SSH2_MSG_EXT_INFO received\r\ndebug1: kex_input_ext_info: server-sig-algs=<rsa-sha2-256,rsa-sha2-512>\r\ndebug3: receive packet: type 6\r\ndebug2: service_accept: ssh-userauth\r\ndebug1: SSH2_MSG_SERVICE_ACCEPT received\r\ndebug3: send packet: type 50\r\ndebug3: receive packet: type 51\r\ndebug1: Authentications that can continue: publickey,gssapi-keyex,gssapi-with-mic,password\r\ndebug3: start over, passed a different list publickey,gssapi-keyex,gssapi-with-mic,password\r\ndebug3: preferred gssapi-with-mic,publickey,keyboard-interactive,password\r\ndebug3: authmethod_lookup gssapi-with-mic\r\ndebug3: remaining preferred: publickey,keyboard-interactive,password\r\ndebug3: authmethod_is_enabled gssapi-with-mic\r\ndebug1: Next authentication method: gssapi-with-mic\r\ndebug1: Unspecified GSS failure.  Minor code may provide more information\nServer not found in Kerberos database\n\n\r\ndebug3: send packet: type 50\r\ndebug2: we sent a gssapi-with-mic packet, wait for reply\r\ndebug3: receive packet: type 51\r\ndebug1: Authentications that can continue: publickey,gssapi-keyex,gssapi-with-mic,password\r\ndebug2: we did not send a packet, disable method\r\ndebug3: authmethod_lookup publickey\r\ndebug3: remaining preferred: keyboard-interactive,password\r\ndebug3: authmethod_is_enabled publickey\r\ndebug1: Next authentication method: publickey\r\ndebug1: Offering public key: /home/anevdokimov/.ssh/id_rsa RSA SHA256:45YUcRhViNEl3cAxtUmNYkQSHSLmSY4fT6InRLOeWRA agent\r\ndebug3: send packet: type 50\r\ndebug2: we sent a publickey packet, wait for reply\r\ndebug3: receive packet: type 51\r\ndebug1: Authentications that can continue: publickey,gssapi-keyex,gssapi-with-mic,password\r\ndebug1: Trying private key: /home/anevdokimov/.ssh/id_dsa\r\ndebug3: no such identity: /home/anevdokimov/.ssh/id_dsa: No such file or directory\r\ndebug1: Trying private key: /home/anevdokimov/.ssh/id_ecdsa\r\ndebug3: no such identity: /home/anevdokimov/.ssh/id_ecdsa: No such file or directory\r\ndebug1: Trying private key: /home/anevdokimov/.ssh/id_ecdsa_sk\r\ndebug3: no such identity: /home/anevdokimov/.ssh/id_ecdsa_sk: No such file or directory\r\ndebug1: Trying private key: /home/anevdokimov/.ssh/id_ed25519\r\ndebug3: no such identity: /home/anevdokimov/.ssh/id_ed25519: No such file or directory\r\ndebug1: Trying private key: /home/anevdokimov/.ssh/id_ed25519_sk\r\ndebug3: no such identity: /home/anevdokimov/.ssh/id_ed25519_sk: No such file or directory\r\ndebug1: Trying private key: /home/anevdokimov/.ssh/id_xmss\r\ndebug3: no such identity: /home/anevdokimov/.ssh/id_xmss: No such file or directory\r\ndebug2: we did not send a packet, disable method\r\ndebug3: authmethod_lookup password\r\ndebug3: remaining preferred: ,password\r\ndebug3: authmethod_is_enabled password\r\ndebug1: Next authentication method: password\r\ndebug3: send packet: type 50\r\ndebug2: we sent a password packet, wait for reply\r\ndebug3: receive packet: type 52\r\ndebug1: Authentication succeeded (password).\r\nAuthenticated to 1nextgis01.dev.aorti.tech ([172.23.193.20]:22).\r\ndebug1: setting up multiplex master socket\r\ndebug3: muxserver_listen: temporary control path /home/anevdokimov/.ansible/cp/c349b71437.LKL4zURRLRPnNlhY\r\ndebug2: fd 5 setting O_NONBLOCK\r\ndebug3: fd 5 is O_NONBLOCK\r\ndebug3: fd 5 is O_NONBLOCK\r\ndebug1: channel 0: new [/home/anevdokimov/.ansible/cp/c349b71437]\r\ndebug3: muxserver_listen: mux listener channel 0 fd 5\r\ndebug2: fd 4 setting TCP_NODELAY\r\ndebug3: ssh_packet_set_tos: set IP_TOS 0x08\r\ndebug1: control_persist_detach: backgrounding master process\r\ndebug2: control_persist_detach: background process is 92888\r\ndebug2: fd 5 setting O_NONBLOCK\r\ndebug1: forking to background\r\ndebug1: Entering interactive session.\r\ndebug1: pledge: id\r\ndebug2: set_control_persist_exit_time: schedule exit in 60 seconds\r\ndebug1: multiplexing control connection\r\ndebug2: fd 6 setting O_NONBLOCK\r\ndebug3: fd 6 is O_NONBLOCK\r\ndebug1: channel 1: new [mux-control]\r\ndebug3: channel_post_mux_listener: new mux channel 1 fd 6\r\ndebug3: mux_master_read_cb: channel 1: hello sent\r\ndebug2: set_control_persist_exit_time: cancel scheduled exit\r\ndebug3: mux_master_read_cb: channel 1 packet type 0x00000001 len 4\r\ndebug2: mux_master_process_hello: channel 1 slave version 4\r\ndebug2: mux_client_hello_exchange: master version 4\r\ndebug3: mux_client_forwards: request forwardings: 0 local, 0 remote\r\ndebug3: mux_client_request_session: entering\r\ndebug3: mux_client_request_alive: entering\r\ndebug3: mux_master_read_cb: channel 1 packet type 0x10000004 len 4\r\ndebug2: mux_master_process_alive_check: channel 1: alive check\r\ndebug3: mux_client_request_alive: done pid = 92890\r\ndebug3: mux_client_request_session: session request sent\r\ndebug3: mux_master_read_cb: channel 1 packet type 0x10000002 len 340\r\ndebug2: mux_master_process_new_session: channel 1: request tty 0, X 0, agent 0, subsys 0, term "xterm-256color", cmd "/bin/sh -c \'echo ~ && sleep 0\'", env 10\r\ndebug3: mux_master_process_new_session: got fds stdin 7, stdout 8, stderr 9\r\ndebug2: fd 8 setting O_NONBLOCK\r\ndebug2: fd 9 setting O_NONBLOCK\r\ndebug1: channel 2: new [client-session]\r\ndebug2: mux_master_process_new_session: channel_new: 2 linked to control channel 1\r\ndebug2: channel 2: send open\r\ndebug3: send packet: type 90\r\ndebug3: receive packet: type 80\r\ndebug1: client_input_global_request: rtype hostkeys-00@openssh.com want_reply 0\r\ndebug3: receive packet: type 91\r\ndebug2: channel_input_open_confirmation: channel 2: callback start\r\ndebug2: client_session2_setup: id 2\r\ndebug1: Sending environment.\r\ndebug1: Sending env LC_ADDRESS = ru_RU.UTF-8\r\ndebug2: channel 2: request env confirm 0\r\ndebug3: send packet: type 98\r\ndebug1: Sending env LC_NAME = ru_RU.UTF-8\r\ndebug2: channel 2: request env confirm 0\r\ndebug3: send packet: type 98\r\ndebug1: Sending env LC_MONETARY = ru_RU.UTF-8\r\ndebug2: channel 2: request env confirm 0\r\ndebug3: send packet: type 98\r\ndebug1: Sending env LC_PAPER = ru_RU.UTF-8\r\ndebug2: channel 2: request env confirm 0\r\ndebug3: send packet: type 98\r\ndebug1: Sending env LANG = en_US.UTF-8\r\ndebug2: channel 2: request env confirm 0\r\ndebug3: send packet: type 98\r\ndebug1: Sending env LC_IDENTIFICATION = ru_RU.UTF-8\r\ndebug2: channel 2: request env confirm 0\r\ndebug3: send packet: type 98\r\ndebug1: Sending env LC_TELEPHONE = ru_RU.UTF-8\r\ndebug2: channel 2: request env confirm 0\r\ndebug3: send packet: type 98\r\ndebug1: Sending env LC_MEASUREMENT = ru_RU.UTF-8\r\ndebug2: channel 2: request env confirm 0\r\ndebug3: send packet: type 98\r\ndebug1: Sending env LC_TIME = ru_RU.UTF-8\r\ndebug2: channel 2: request env confirm 0\r\ndebug3: send packet: type 98\r\ndebug1: Sending env LC_NUMERIC = ru_RU.UTF-8\r\ndebug2: channel 2: request env confirm 0\r\ndebug3: send packet: type 98\r\ndebug1: Sending command: /bin/sh -c \'echo ~ && sleep 0\'\r\ndebug2: channel 2: request exec confirm 1\r\ndebug3: send packet: type 98\r\ndebug3: mux_session_confirm: sending success reply\r\ndebug2: channel_input_open_confirmation: channel 2: callback done\r\ndebug2: channel 2: open confirm rwindow 0 rmax 32768\r\ndebug2: channel 2: rcvd adjust 2097152\r\ndebug3: receive packet: type 99\r\ndebug2: channel_input_status_confirm: type 99 id 2\r\ndebug2: exec request accepted on channel 2\r\ndebug3: receive packet: type 96\r\ndebug2: channel 2: rcvd eof\r\ndebug2: channel 2: output open -> drain\r\ndebug2: channel 2: obuf empty\r\ndebug2: channel 2: chan_shutdown_write (i0 o1 sock -1 wfd 8 efd 9 [write])\r\ndebug2: channel 2: output drain -> closed\r\ndebug3: receive packet: type 98\r\ndebug1: client_input_channel_req: channel 2 rtype exit-status reply 0\r\ndebug3: mux_exit_message: channel 2: exit message, exitval 0\r\ndebug3: receive packet: type 98\r\ndebug1: client_input_channel_req: channel 2 rtype eow@openssh.com reply 0\r\ndebug2: channel 2: rcvd eow\r\ndebug2: channel 2: chan_shutdown_read (i0 o3 sock -1 wfd 7 efd 9 [write])\r\ndebug2: channel 2: input open -> closed\r\ndebug3: receive packet: type 97\r\ndebug2: channel 2: rcvd close\r\ndebug3: channel 2: will not send data after close\r\ndebug2: channel 2: send close\r\ndebug3: send packet: type 97\r\ndebug2: channel 2: is dead\r\ndebug2: channel 2: gc: notify user\r\ndebug3: mux_master_session_cleanup_cb: entering for channel 2\r\ndebug2: channel 1: rcvd close\r\ndebug2: channel 1: output open -> drain\r\ndebug2: channel 1: chan_shutdown_read (i0 o1 sock 6 wfd 6 efd -1 [closed])\r\ndebug2: channel 1: input open -> closed\r\ndebug2: channel 2: gc: user detached\r\ndebug2: channel 2: is dead\r\ndebug2: channel 2: garbage collecting\r\ndebug1: channel 2: free: client-session, nchannels 3\r\ndebug3: channel 2: status: The following connections are open:\r\n  #1 mux-control (t16 nr0 i3/0 o1/16 e[closed]/0 fd 6/6/-1 sock 6 cc -1)\r\n  #2 client-session (t4 r0 i3/0 o3/0 e[write]/0 fd -1/-1/9 sock -1 cc -1)\r\n\r\ndebug2: channel 1: obuf empty\r\ndebug2: channel 1: chan_shutdown_write (i3 o1 sock 6 wfd 6 efd -1 [closed])\r\ndebug2: channel 1: output drain -> closed\r\ndebug2: channel 1: is dead (local)\r\ndebug2: channel 1: gc: notify user\r\ndebug3: mux_master_control_cleanup_cb: entering for channel 1\r\ndebug2: channel 1: gc: user detached\r\ndebug2: channel 1: is dead (local)\r\ndebug3: mux_client_read_packet: read header failed: Broken pipe\r\ndebug2: channel 1: garbage collecting\r\ndebug1: channel 1: free: mux-control, nchannels 2\r\ndebug3: channel 1: status: The following connections are open:\r\n  #1 mux-control (t16 nr0 i3/0 o3/0 e[closed]/0 fd 6/6/-1 sock 6 cc -1)\r\n\r\ndebug2: Received exit status from master 0\r\ndebug2: set_control_persist_exit_time: schedule exit in 60 seconds\r\n')
+2022-07-12 12:11:52,006 p=92880 u=anevdokimov n=ansible | <1nextgis01.dev.aorti.tech> ESTABLISH SSH CONNECTION FOR USER: None
+2022-07-12 12:11:52,008 p=92880 u=anevdokimov n=ansible | <1nextgis01.dev.aorti.tech> SSH: EXEC sshpass -d12 ssh -vvv -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -o LogLevel=ERROR -o ControlMaster=auto -o ControlPersist=60s -o StrictHostKeyChecking=no -o ConnectTimeout=10 -o ControlPath=/home/anevdokimov/.ansible/cp/c349b71437 1nextgis01.dev.aorti.tech '/bin/sh -c '"'"'( umask 77 && mkdir -p "` echo /home/anevdokimov/.ansible/tmp/ansible-tmp-1657617110.0093193-264062273875987 `" && echo ansible-tmp-1657617110.0093193-264062273875987="` echo /home/anevdokimov/.ansible/tmp/ansible-tmp-1657617110.0093193-264062273875987 `" ) && sleep 0'"'"''
+2022-07-12 12:11:52,168 p=92880 u=anevdokimov n=ansible | <1nextgis01.dev.aorti.tech> (0, b'ansible-tmp-1657617110.0093193-264062273875987=/home/anevdokimov/.ansible/tmp/ansible-tmp-1657617110.0093193-264062273875987\n', b'OpenSSH_8.2p1 Ubuntu-4ubuntu0.5, OpenSSL 1.1.1f  31 Mar 2020\r\ndebug1: Reading configuration data /home/anevdokimov/.ssh/config\r\ndebug1: Reading configuration data /etc/ssh/ssh_config\r\ndebug1: /etc/ssh/ssh_config line 19: include /etc/ssh/ssh_config.d/*.conf matched no files\r\ndebug1: /etc/ssh/ssh_config line 21: Applying options for *\r\ndebug1: auto-mux: Trying existing master\r\ndebug2: fd 4 setting O_NONBLOCK\r\ndebug2: mux_client_hello_exchange: master version 4\r\ndebug3: mux_client_forwards: request forwardings: 0 local, 0 remote\r\ndebug3: mux_client_request_session: entering\r\ndebug3: mux_client_request_alive: entering\r\ndebug3: mux_client_request_alive: done pid = 92890\r\ndebug3: mux_client_request_session: session request sent\r\ndebug3: mux_client_read_packet: read header failed: Broken pipe\r\ndebug2: Received exit status from master 0\r\n')
+2022-07-12 12:11:52,313 p=92880 u=anevdokimov n=ansible | Using module file /usr/lib/python3/dist-packages/ansible/modules/system/ping.py
+2022-07-12 12:11:52,352 p=92880 u=anevdokimov n=ansible | <1nextgis01.dev.aorti.tech> PUT /home/anevdokimov/.ansible/tmp/ansible-local-92835ym7txblp/tmpe2e4d6bx TO /home/anevdokimov/.ansible/tmp/ansible-tmp-1657617110.0093193-264062273875987/AnsiballZ_ping.py
+2022-07-12 12:11:52,353 p=92880 u=anevdokimov n=ansible | <1nextgis01.dev.aorti.tech> SSH: EXEC sshpass -d12 sftp -o BatchMode=no -b - -vvv -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -o LogLevel=ERROR -o ControlMaster=auto -o ControlPersist=60s -o StrictHostKeyChecking=no -o ConnectTimeout=10 -o ControlPath=/home/anevdokimov/.ansible/cp/c349b71437 '[1nextgis01.dev.aorti.tech]'
+2022-07-12 12:11:52,448 p=92880 u=anevdokimov n=ansible | <1nextgis01.dev.aorti.tech> (0, b'sftp> put /home/anevdokimov/.ansible/tmp/ansible-local-92835ym7txblp/tmpe2e4d6bx /home/anevdokimov/.ansible/tmp/ansible-tmp-1657617110.0093193-264062273875987/AnsiballZ_ping.py\n', b'OpenSSH_8.2p1 Ubuntu-4ubuntu0.5, OpenSSL 1.1.1f  31 Mar 2020\r\ndebug1: Reading configuration data /home/anevdokimov/.ssh/config\r\ndebug1: Reading configuration data /etc/ssh/ssh_config\r\ndebug1: /etc/ssh/ssh_config line 19: include /etc/ssh/ssh_config.d/*.conf matched no files\r\ndebug1: /etc/ssh/ssh_config line 21: Applying options for *\r\ndebug1: auto-mux: Trying existing master\r\ndebug2: fd 4 setting O_NONBLOCK\r\ndebug2: mux_client_hello_exchange: master version 4\r\ndebug3: mux_client_forwards: request forwardings: 0 local, 0 remote\r\ndebug3: mux_client_request_session: entering\r\ndebug3: mux_client_request_alive: entering\r\ndebug3: mux_client_request_alive: done pid = 92890\r\ndebug3: mux_client_request_session: session request sent\r\ndebug2: Remote version: 3\r\ndebug2: Server supports extension "posix-rename@openssh.com" revision 1\r\ndebug2: Server supports extension "statvfs@openssh.com" revision 2\r\ndebug2: Server supports extension "fstatvfs@openssh.com" revision 2\r\ndebug2: Server supports extension "hardlink@openssh.com" revision 1\r\ndebug2: Server supports extension "fsync@openssh.com" revision 1\r\ndebug3: Sent message fd 3 T:16 I:1\r\ndebug3: SSH_FXP_REALPATH . -> /home/anevdokimov size 0\r\ndebug3: Looking up /home/anevdokimov/.ansible/tmp/ansible-local-92835ym7txblp/tmpe2e4d6bx\r\ndebug3: Sent message fd 3 T:17 I:2\r\ndebug3: Received stat reply T:101 I:2\r\ndebug1: Couldn\'t stat remote file: No such file or directory\r\ndebug3: Sent message SSH2_FXP_OPEN I:3 P:/home/anevdokimov/.ansible/tmp/ansible-tmp-1657617110.0093193-264062273875987/AnsiballZ_ping.py\r\ndebug3: Sent message SSH2_FXP_WRITE I:4 O:0 S:32768\r\ndebug3: SSH2_FXP_STATUS 0\r\ndebug3: In write loop, ack for 4 32768 bytes at 0\r\ndebug3: Sent message SSH2_FXP_WRITE I:5 O:32768 S:32768\r\ndebug3: Sent message SSH2_FXP_WRITE I:6 O:65536 S:32768\r\ndebug3: Sent message SSH2_FXP_WRITE I:7 O:98304 S:5619\r\ndebug3: SSH2_FXP_STATUS 0\r\ndebug3: In write loop, ack for 5 32768 bytes at 32768\r\ndebug3: SSH2_FXP_STATUS 0\r\ndebug3: In write loop, ack for 6 32768 bytes at 65536\r\ndebug3: SSH2_FXP_STATUS 0\r\ndebug3: In write loop, ack for 7 5619 bytes at 98304\r\ndebug3: Sent message SSH2_FXP_CLOSE I:4\r\ndebug3: SSH2_FXP_STATUS 0\r\ndebug3: mux_client_read_packet: read header failed: Broken pipe\r\ndebug2: Received exit status from master 0\r\n')
+2022-07-12 12:11:52,463 p=92880 u=anevdokimov n=ansible | <1nextgis01.dev.aorti.tech> ESTABLISH SSH CONNECTION FOR USER: None
+2022-07-12 12:11:52,464 p=92880 u=anevdokimov n=ansible | <1nextgis01.dev.aorti.tech> SSH: EXEC sshpass -d12 ssh -vvv -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -o LogLevel=ERROR -o ControlMaster=auto -o ControlPersist=60s -o StrictHostKeyChecking=no -o ConnectTimeout=10 -o ControlPath=/home/anevdokimov/.ansible/cp/c349b71437 1nextgis01.dev.aorti.tech '/bin/sh -c '"'"'chmod u+x /home/anevdokimov/.ansible/tmp/ansible-tmp-1657617110.0093193-264062273875987/ /home/anevdokimov/.ansible/tmp/ansible-tmp-1657617110.0093193-264062273875987/AnsiballZ_ping.py && sleep 0'"'"''
+2022-07-12 12:11:52,548 p=92880 u=anevdokimov n=ansible | <1nextgis01.dev.aorti.tech> (0, b'', b'OpenSSH_8.2p1 Ubuntu-4ubuntu0.5, OpenSSL 1.1.1f  31 Mar 2020\r\ndebug1: Reading configuration data /home/anevdokimov/.ssh/config\r\ndebug1: Reading configuration data /etc/ssh/ssh_config\r\ndebug1: /etc/ssh/ssh_config line 19: include /etc/ssh/ssh_config.d/*.conf matched no files\r\ndebug1: /etc/ssh/ssh_config line 21: Applying options for *\r\ndebug1: auto-mux: Trying existing master\r\ndebug2: fd 4 setting O_NONBLOCK\r\ndebug2: mux_client_hello_exchange: master version 4\r\ndebug3: mux_client_forwards: request forwardings: 0 local, 0 remote\r\ndebug3: mux_client_request_session: entering\r\ndebug3: mux_client_request_alive: entering\r\ndebug3: mux_client_request_alive: done pid = 92890\r\ndebug3: mux_client_request_session: session request sent\r\ndebug3: mux_client_read_packet: read header failed: Broken pipe\r\ndebug2: Received exit status from master 0\r\n')
+2022-07-12 12:11:52,548 p=92880 u=anevdokimov n=ansible | <1nextgis01.dev.aorti.tech> ESTABLISH SSH CONNECTION FOR USER: None
+2022-07-12 12:11:52,553 p=92880 u=anevdokimov n=ansible | <1nextgis01.dev.aorti.tech> SSH: EXEC sshpass -d12 ssh -vvv -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -o LogLevel=ERROR -o ControlMaster=auto -o ControlPersist=60s -o StrictHostKeyChecking=no -o ConnectTimeout=10 -o ControlPath=/home/anevdokimov/.ansible/cp/c349b71437 -tt 1nextgis01.dev.aorti.tech '/bin/sh -c '"'"'/usr/bin/python /home/anevdokimov/.ansible/tmp/ansible-tmp-1657617110.0093193-264062273875987/AnsiballZ_ping.py && sleep 0'"'"''
+2022-07-12 12:11:52,780 p=92880 u=anevdokimov n=ansible | <1nextgis01.dev.aorti.tech> (0, b'\r\n{"invocation": {"module_args": {"data": "pong"}}, "ping": "pong"}\r\n', b'OpenSSH_8.2p1 Ubuntu-4ubuntu0.5, OpenSSL 1.1.1f  31 Mar 2020\r\ndebug1: Reading configuration data /home/anevdokimov/.ssh/config\r\ndebug1: Reading configuration data /etc/ssh/ssh_config\r\ndebug1: /etc/ssh/ssh_config line 19: include /etc/ssh/ssh_config.d/*.conf matched no files\r\ndebug1: /etc/ssh/ssh_config line 21: Applying options for *\r\ndebug1: auto-mux: Trying existing master\r\ndebug2: fd 4 setting O_NONBLOCK\r\ndebug2: mux_client_hello_exchange: master version 4\r\ndebug3: mux_client_forwards: request forwardings: 0 local, 0 remote\r\ndebug3: mux_client_request_session: entering\r\ndebug3: mux_client_request_alive: entering\r\ndebug3: mux_client_request_alive: done pid = 92890\r\ndebug3: mux_client_request_session: session request sent\r\ndebug3: mux_client_read_packet: read header failed: Broken pipe\r\ndebug2: Received exit status from master 0\r\nShared connection to 1nextgis01.dev.aorti.tech closed.\r\n')
+2022-07-12 12:11:52,781 p=92880 u=anevdokimov n=ansible | <1nextgis01.dev.aorti.tech> ESTABLISH SSH CONNECTION FOR USER: None
+2022-07-12 12:11:52,783 p=92880 u=anevdokimov n=ansible | <1nextgis01.dev.aorti.tech> SSH: EXEC sshpass -d12 ssh -vvv -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -o LogLevel=ERROR -o ControlMaster=auto -o ControlPersist=60s -o StrictHostKeyChecking=no -o ConnectTimeout=10 -o ControlPath=/home/anevdokimov/.ansible/cp/c349b71437 1nextgis01.dev.aorti.tech '/bin/sh -c '"'"'rm -f -r /home/anevdokimov/.ansible/tmp/ansible-tmp-1657617110.0093193-264062273875987/ > /dev/null 2>&1 && sleep 0'"'"''
+2022-07-12 12:11:52,857 p=92880 u=anevdokimov n=ansible | <1nextgis01.dev.aorti.tech> (0, b'', b'OpenSSH_8.2p1 Ubuntu-4ubuntu0.5, OpenSSL 1.1.1f  31 Mar 2020\r\ndebug1: Reading configuration data /home/anevdokimov/.ssh/config\r\ndebug1: Reading configuration data /etc/ssh/ssh_config\r\ndebug1: /etc/ssh/ssh_config line 19: include /etc/ssh/ssh_config.d/*.conf matched no files\r\ndebug1: /etc/ssh/ssh_config line 21: Applying options for *\r\ndebug1: auto-mux: Trying existing master\r\ndebug2: fd 4 setting O_NONBLOCK\r\ndebug2: mux_client_hello_exchange: master version 4\r\ndebug3: mux_client_forwards: request forwardings: 0 local, 0 remote\r\ndebug3: mux_client_request_session: entering\r\ndebug3: mux_client_request_alive: entering\r\ndebug3: mux_client_request_alive: done pid = 92890\r\ndebug3: mux_client_request_session: session request sent\r\ndebug3: mux_client_read_packet: read header failed: Broken pipe\r\ndebug2: Received exit status from master 0\r\n')
+2022-07-12 12:11:52,860 p=92835 u=anevdokimov n=ansible | 1nextgis01.dev.aorti.tech | SUCCESS => {
+    "changed": false,
+    "invocation": {
+        "module_args": {
+            "data": "pong"
+        }
+    },
+    "ping": "pong"
+}
+2022-07-12 12:11:52,860 p=92835 u=anevdokimov n=ansible | META: ran handlers
+2022-07-12 12:11:52,862 p=92835 u=anevdokimov n=ansible | META: ran handlers
+2022-07-12 12:15:40,510 p=93461 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to allow bad characters in 
+group names by default, this will change, but still be user configurable on deprecation. This feature 
+will be removed in version 2.10. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2022-07-12 12:15:40,510 p=93461 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2022-07-12 12:15:42,253 p=93461 u=anevdokimov n=ansible | 1nextgis01.dev.aorti.tech | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2022-07-12 12:15:45,645 p=93559 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to allow bad characters in 
+group names by default, this will change, but still be user configurable on deprecation. This feature 
+will be removed in version 2.10. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2022-07-12 12:15:45,646 p=93559 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2022-07-12 12:15:46,969 p=93559 u=anevdokimov n=ansible | 1nextgis01.dev.aorti.tech | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2022-07-12 12:29:51,372 p=119830 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to allow bad characters in 
+group names by default, this will change, but still be user configurable on deprecation. This feature 
+will be removed in version 2.10. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2022-07-12 12:29:51,372 p=119830 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2022-07-12 12:29:53,229 p=119830 u=anevdokimov n=ansible | 1nextgis01.dev.aorti.tech | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2022-07-12 12:31:08,798 p=127511 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to allow bad characters in 
+group names by default, this will change, but still be user configurable on deprecation. This feature 
+will be removed in version 2.10. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2022-07-12 12:31:08,798 p=127511 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2022-07-12 12:31:11,135 p=127511 u=anevdokimov n=ansible | 1nextgis01.dev.aorti.tech | SUCCESS => {
+    "changed": false,
+    "ping": "pong"
+}
+2022-07-12 12:34:03,255 p=131610 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to allow bad characters in 
+group names by default, this will change, but still be user configurable on deprecation. This feature 
+will be removed in version 2.10. Deprecation warnings can be disabled by setting 
+deprecation_warnings=False in ansible.cfg.
+2022-07-12 12:34:03,255 p=131610 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2022-07-12 12:34:03,668 p=131610 u=anevdokimov n=ansible | PLAY [1nextgis01] ***************************************************************************************
+2022-07-12 12:34:03,699 p=131610 u=anevdokimov n=ansible | TASK [Gathering Facts] **********************************************************************************
+2022-07-12 12:34:06,235 p=131610 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech]
+2022-07-12 12:34:06,242 p=131610 u=anevdokimov n=ansible | TASK [1nextgis01 : Устанавливаем пакеты] ****************************************************************
+2022-07-12 12:34:13,646 p=131610 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 12:34:13,648 p=131610 u=anevdokimov n=ansible | PLAY RECAP **********************************************************************************************
+2022-07-12 12:34:13,651 p=131610 u=anevdokimov n=ansible | 1nextgis01.dev.aorti.tech  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-07-12 14:33:05,848 p=28856 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to 
+allow bad characters in group names by default, this will change, but still be 
+user configurable on deprecation. This feature will be removed in version 2.10.
+ Deprecation warnings can be disabled by setting deprecation_warnings=False in 
+ansible.cfg.
+2022-07-12 14:33:05,849 p=28856 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use
+-vvvv to see details
+
+2022-07-12 14:33:07,006 p=28856 u=anevdokimov n=ansible | PLAY [1nextgis01] **************************************************************
+2022-07-12 14:33:07,119 p=28856 u=anevdokimov n=ansible | TASK [1nextgis01 : Устанавливаем пакеты] ***************************************
+2022-07-12 14:33:14,815 p=28856 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 14:33:14,821 p=28856 u=anevdokimov n=ansible | TASK [1nextgis01 : Настраиваем автозапуск сервисов] ****************************
+2022-07-12 14:33:14,911 p=28856 u=anevdokimov n=ansible | fatal: [1nextgis01.dev.aorti.tech]: FAILED! => {}
+
+MSG:
+
+The task includes an option with an undefined variable. The error was: 'service' is undefined
+
+The error appears to be in '/home/anevdokimov/Documents/GIT/apache2-ans/roles/1nextgis01/tasks/main.yml': line 16, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Настраиваем автозапуск сервисов
+  ^ here
+
+
+2022-07-12 14:33:14,913 p=28856 u=anevdokimov n=ansible | PLAY RECAP *********************************************************************
+2022-07-12 14:33:14,913 p=28856 u=anevdokimov n=ansible | 1nextgis01.dev.aorti.tech  : ok=1    changed=1    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2022-07-12 14:34:43,128 p=34069 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to allow bad characters in group names by default, this will 
+change, but still be user configurable on deprecation. This feature will be removed in version 2.10. Deprecation warnings can be disabled by
+ setting deprecation_warnings=False in ansible.cfg.
+2022-07-12 14:34:43,128 p=34069 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2022-07-12 14:34:43,575 p=34069 u=anevdokimov n=ansible | PLAY [1nextgis01] ***************************************************************************************************************************
+2022-07-12 14:34:43,623 p=34069 u=anevdokimov n=ansible | TASK [1nextgis01 : Устанавливаем пакеты] ****************************************************************************************************
+2022-07-12 14:34:49,000 p=34069 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 14:34:49,006 p=34069 u=anevdokimov n=ansible | TASK [1nextgis01 : Настраиваем автозапуск сервисов] *****************************************************************************************
+2022-07-12 14:34:49,081 p=34069 u=anevdokimov n=ansible | fatal: [1nextgis01.dev.aorti.tech]: FAILED! => {}
+
+MSG:
+
+The task includes an option with an undefined variable. The error was: 'service' is undefined
+
+The error appears to be in '/home/anevdokimov/Documents/GIT/apache2-ans/roles/1nextgis01/tasks/main.yml': line 15, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Настраиваем автозапуск сервисов
+  ^ here
+
+
+2022-07-12 14:34:49,082 p=34069 u=anevdokimov n=ansible | PLAY RECAP **********************************************************************************************************************************
+2022-07-12 14:34:49,082 p=34069 u=anevdokimov n=ansible | 1nextgis01.dev.aorti.tech  : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2022-07-12 14:35:20,256 p=34191 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to allow bad characters in group names by default, this will 
+change, but still be user configurable on deprecation. This feature will be removed in version 2.10. Deprecation warnings can be disabled by
+ setting deprecation_warnings=False in ansible.cfg.
+2022-07-12 14:35:20,256 p=34191 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2022-07-12 14:35:20,685 p=34191 u=anevdokimov n=ansible | PLAY [1nextgis01] ***************************************************************************************************************************
+2022-07-12 14:35:20,731 p=34191 u=anevdokimov n=ansible | TASK [1nextgis01 : Устанавливаем пакеты] ****************************************************************************************************
+2022-07-12 14:35:24,922 p=34191 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 14:35:24,934 p=34191 u=anevdokimov n=ansible | TASK [1nextgis01 : Настраиваем автозапуск сервисов] *****************************************************************************************
+2022-07-12 14:35:25,016 p=34191 u=anevdokimov n=ansible | fatal: [1nextgis01.dev.aorti.tech]: FAILED! => {}
+
+MSG:
+
+The task includes an option with an undefined variable. The error was: 'service' is undefined
+
+The error appears to be in '/home/anevdokimov/Documents/GIT/apache2-ans/roles/1nextgis01/tasks/main.yml': line 14, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Настраиваем автозапуск сервисов
+  ^ here
+
+
+2022-07-12 14:35:25,018 p=34191 u=anevdokimov n=ansible | PLAY RECAP **********************************************************************************************************************************
+2022-07-12 14:35:25,020 p=34191 u=anevdokimov n=ansible | 1nextgis01.dev.aorti.tech  : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2022-07-12 14:35:39,606 p=34280 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to allow bad characters in group names by default, this will 
+change, but still be user configurable on deprecation. This feature will be removed in version 2.10. Deprecation warnings can be disabled by
+ setting deprecation_warnings=False in ansible.cfg.
+2022-07-12 14:35:39,606 p=34280 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2022-07-12 14:35:40,082 p=34280 u=anevdokimov n=ansible | PLAY [1nextgis01] ***************************************************************************************************************************
+2022-07-12 14:35:40,132 p=34280 u=anevdokimov n=ansible | TASK [1nextgis01 : Устанавливаем пакеты] ****************************************************************************************************
+2022-07-12 14:35:44,088 p=34280 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 14:35:44,095 p=34280 u=anevdokimov n=ansible | TASK [1nextgis01 : Настраиваем автозапуск сервисов] *****************************************************************************************
+2022-07-12 14:35:44,184 p=34280 u=anevdokimov n=ansible | fatal: [1nextgis01.dev.aorti.tech]: FAILED! => {}
+
+MSG:
+
+The task includes an option with an undefined variable. The error was: 'service' is undefined
+
+The error appears to be in '/home/anevdokimov/Documents/GIT/apache2-ans/roles/1nextgis01/tasks/main.yml': line 14, column 5, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+  - name: Настраиваем автозапуск сервисов
+    ^ here
+
+
+2022-07-12 14:35:44,187 p=34280 u=anevdokimov n=ansible | PLAY RECAP **********************************************************************************************************************************
+2022-07-12 14:35:44,190 p=34280 u=anevdokimov n=ansible | 1nextgis01.dev.aorti.tech  : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2022-07-12 14:42:08,510 p=50736 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to allow bad characters in group names by default, this will 
+change, but still be user configurable on deprecation. This feature will be removed in version 2.10. Deprecation warnings can be disabled by
+ setting deprecation_warnings=False in ansible.cfg.
+2022-07-12 14:42:08,510 p=50736 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2022-07-12 14:42:08,945 p=50736 u=anevdokimov n=ansible | PLAY [1nextgis01] ***************************************************************************************************************************
+2022-07-12 14:42:08,997 p=50736 u=anevdokimov n=ansible | TASK [1nextgis01 : Устанавливаем пакеты] ****************************************************************************************************
+2022-07-12 14:42:13,673 p=50736 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 14:42:13,681 p=50736 u=anevdokimov n=ansible | TASK [1nextgis01 : Настраиваем автозапуск сервисов] *****************************************************************************************
+2022-07-12 14:42:13,745 p=50736 u=anevdokimov n=ansible | fatal: [1nextgis01.dev.aorti.tech]: FAILED! => {}
+
+MSG:
+
+The task includes an option with an undefined variable. The error was: 'service' is undefined
+
+The error appears to be in '/home/anevdokimov/Documents/GIT/apache2-ans/roles/1nextgis01/tasks/main.yml': line 14, column 5, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+  - name: Настраиваем автозапуск сервисов
+    ^ here
+
+
+2022-07-12 14:42:13,748 p=50736 u=anevdokimov n=ansible | PLAY RECAP **********************************************************************************************************************************
+2022-07-12 14:42:13,748 p=50736 u=anevdokimov n=ansible | 1nextgis01.dev.aorti.tech  : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2022-07-12 14:42:36,062 p=50835 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to allow bad characters in group names by default, this will 
+change, but still be user configurable on deprecation. This feature will be removed in version 2.10. Deprecation warnings can be disabled by
+ setting deprecation_warnings=False in ansible.cfg.
+2022-07-12 14:42:36,062 p=50835 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2022-07-12 14:42:36,520 p=50835 u=anevdokimov n=ansible | PLAY [1nextgis01] ***************************************************************************************************************************
+2022-07-12 14:42:36,559 p=50835 u=anevdokimov n=ansible | TASK [1nextgis01 : Устанавливаем пакеты] ****************************************************************************************************
+2022-07-12 14:42:40,241 p=50835 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 14:42:40,251 p=50835 u=anevdokimov n=ansible | TASK [1nextgis01 : Настраиваем автозапуск сервисов] *****************************************************************************************
+2022-07-12 14:42:40,334 p=50835 u=anevdokimov n=ansible | fatal: [1nextgis01.dev.aorti.tech]: FAILED! => {}
+
+MSG:
+
+The task includes an option with an undefined variable. The error was: 'service' is undefined
+
+The error appears to be in '/home/anevdokimov/Documents/GIT/apache2-ans/roles/1nextgis01/tasks/main.yml': line 14, column 5, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+  - name: Настраиваем автозапуск сервисов
+    ^ here
+
+
+2022-07-12 14:42:40,336 p=50835 u=anevdokimov n=ansible | PLAY RECAP **********************************************************************************************************************************
+2022-07-12 14:42:40,336 p=50835 u=anevdokimov n=ansible | 1nextgis01.dev.aorti.tech  : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2022-07-12 14:44:30,729 p=51209 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to allow bad characters in group names by default, this will 
+change, but still be user configurable on deprecation. This feature will be removed in version 2.10. Deprecation warnings can be disabled by
+ setting deprecation_warnings=False in ansible.cfg.
+2022-07-12 14:44:30,729 p=51209 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2022-07-12 14:44:31,155 p=51209 u=anevdokimov n=ansible | PLAY [1nextgis01] ***************************************************************************************************************************
+2022-07-12 14:44:31,209 p=51209 u=anevdokimov n=ansible | TASK [1nextgis01 : Устанавливаем пакеты] ****************************************************************************************************
+2022-07-12 14:44:36,322 p=51209 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 14:44:36,337 p=51209 u=anevdokimov n=ansible | TASK [1nextgis01 : Настраиваем автозапуск сервисов] *****************************************************************************************
+2022-07-12 14:44:36,407 p=51209 u=anevdokimov n=ansible | fatal: [1nextgis01.dev.aorti.tech]: FAILED! => {}
+
+MSG:
+
+The task includes an option with an undefined variable. The error was: 'service' is undefined
+
+The error appears to be in '/home/anevdokimov/Documents/GIT/apache2-ans/roles/1nextgis01/tasks/main.yml': line 14, column 5, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+  - name: Настраиваем автозапуск сервисов
+    ^ here
+
+
+2022-07-12 14:44:36,409 p=51209 u=anevdokimov n=ansible | PLAY RECAP **********************************************************************************************************************************
+2022-07-12 14:44:36,410 p=51209 u=anevdokimov n=ansible | 1nextgis01.dev.aorti.tech  : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2022-07-12 14:46:33,972 p=51561 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to allow bad characters in group names by default, this will 
+change, but still be user configurable on deprecation. This feature will be removed in version 2.10. Deprecation warnings can be disabled by
+ setting deprecation_warnings=False in ansible.cfg.
+2022-07-12 14:46:33,972 p=51561 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2022-07-12 14:46:34,440 p=51561 u=anevdokimov n=ansible | PLAY [1nextgis01] ***************************************************************************************************************************
+2022-07-12 14:46:34,516 p=51561 u=anevdokimov n=ansible | TASK [1nextgis01 : Устанавливаем пакеты] ****************************************************************************************************
+2022-07-12 14:46:39,605 p=51561 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 14:46:39,617 p=51561 u=anevdokimov n=ansible | TASK [1nextgis01 : Настраиваем автозапуск сервисов] *****************************************************************************************
+2022-07-12 14:46:41,331 p=51561 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 14:46:41,335 p=51561 u=anevdokimov n=ansible | PLAY RECAP **********************************************************************************************************************************
+2022-07-12 14:46:41,335 p=51561 u=anevdokimov n=ansible | 1nextgis01.dev.aorti.tech  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-07-12 14:48:38,230 p=59357 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to allow bad characters in group names by default, this will 
+change, but still be user configurable on deprecation. This feature will be removed in version 2.10. Deprecation warnings can be disabled by
+ setting deprecation_warnings=False in ansible.cfg.
+2022-07-12 14:48:38,230 p=59357 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2022-07-12 14:48:38,756 p=59357 u=anevdokimov n=ansible | ERROR! Syntax Error while loading YAML.
+  did not find expected <document start>
+
+The error appears to be in '/home/anevdokimov/Documents/GIT/apache2-ans/roles/1nextgis01/tasks/main.yml': line 36, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Запускаем
+^ here
+
+2022-07-12 14:48:55,789 p=59419 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to allow bad characters in group names by default, this will 
+change, but still be user configurable on deprecation. This feature will be removed in version 2.10. Deprecation warnings can be disabled by
+ setting deprecation_warnings=False in ansible.cfg.
+2022-07-12 14:48:55,789 p=59419 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2022-07-12 14:48:56,182 p=59419 u=anevdokimov n=ansible | PLAY [1nextgis01] ***************************************************************************************************************************
+2022-07-12 14:48:56,234 p=59419 u=anevdokimov n=ansible | TASK [1nextgis01 : Устанавливаем пакеты] ****************************************************************************************************
+2022-07-12 14:49:00,929 p=59419 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 14:49:00,936 p=59419 u=anevdokimov n=ansible | TASK [1nextgis01 : Настраиваем автозапуск сервисов] *****************************************************************************************
+2022-07-12 14:49:02,698 p=59419 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 14:49:02,710 p=59419 u=anevdokimov n=ansible | TASK [1nextgis01 : Запускаем] ***************************************************************************************************************
+2022-07-12 14:49:04,296 p=59419 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 14:49:04,299 p=59419 u=anevdokimov n=ansible | PLAY RECAP **********************************************************************************************************************************
+2022-07-12 14:49:04,299 p=59419 u=anevdokimov n=ansible | 1nextgis01.dev.aorti.tech  : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-07-12 15:22:27,864 p=118480 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to allow bad characters in group names by default, this will 
+change, but still be user configurable on deprecation. This feature will be removed in version 2.10. Deprecation warnings can be disabled by
+ setting deprecation_warnings=False in ansible.cfg.
+2022-07-12 15:22:27,864 p=118480 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2022-07-12 15:22:28,353 p=118480 u=anevdokimov n=ansible | PLAY [1nextgis01] ***************************************************************************************************************************
+2022-07-12 15:22:28,408 p=118480 u=anevdokimov n=ansible | TASK [1nextgis01 : Устанавливаем пакеты] ****************************************************************************************************
+2022-07-12 15:22:34,986 p=118480 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 15:22:34,994 p=118480 u=anevdokimov n=ansible | TASK [1nextgis01 : Настраиваем автозапуск сервисов] *****************************************************************************************
+2022-07-12 15:22:36,458 p=118480 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 15:22:36,472 p=118480 u=anevdokimov n=ansible | TASK [1nextgis01 : Delete /var/www/html folder] *********************************************************************************************
+2022-07-12 15:22:37,592 p=118480 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech]
+2022-07-12 15:22:37,606 p=118480 u=anevdokimov n=ansible | TASK [1nextgis01 : Copy our lending to /var/www/html folder] ********************************************************************************
+2022-07-12 15:22:37,934 p=118480 u=anevdokimov n=ansible | fatal: [1nextgis01.dev.aorti.tech]: FAILED! => {
+    "changed": false
+}
+
+MSG:
+
+src (or content) is required
+
+2022-07-12 15:22:37,936 p=118480 u=anevdokimov n=ansible | PLAY RECAP **********************************************************************************************************************************
+2022-07-12 15:22:37,936 p=118480 u=anevdokimov n=ansible | 1nextgis01.dev.aorti.tech  : ok=3    changed=2    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2022-07-12 15:24:50,482 p=121610 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to allow bad characters in group names by default, this will 
+change, but still be user configurable on deprecation. This feature will be removed in version 2.10. Deprecation warnings can be disabled by
+ setting deprecation_warnings=False in ansible.cfg.
+2022-07-12 15:24:50,482 p=121610 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2022-07-12 15:24:50,949 p=121610 u=anevdokimov n=ansible | PLAY [1nextgis01] ***************************************************************************************************************************
+2022-07-12 15:24:51,002 p=121610 u=anevdokimov n=ansible | TASK [1nextgis01 : Устанавливаем пакеты] ****************************************************************************************************
+2022-07-12 15:24:55,709 p=121610 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 15:24:55,722 p=121610 u=anevdokimov n=ansible | TASK [1nextgis01 : Настраиваем автозапуск сервисов] *****************************************************************************************
+2022-07-12 15:24:57,374 p=121610 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 15:24:57,379 p=121610 u=anevdokimov n=ansible | TASK [1nextgis01 : Delete /var/www/html folder] *********************************************************************************************
+2022-07-12 15:24:58,646 p=121610 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech]
+2022-07-12 15:24:58,654 p=121610 u=anevdokimov n=ansible | TASK [1nextgis01 : Copy our lending to /var/www/html folder] ********************************************************************************
+2022-07-12 15:24:58,909 p=121610 u=anevdokimov n=ansible | fatal: [1nextgis01.dev.aorti.tech]: FAILED! => {
+    "changed": false
+}
+
+MSG:
+
+src (or content) is required
+
+2022-07-12 15:24:58,911 p=121610 u=anevdokimov n=ansible | PLAY RECAP **********************************************************************************************************************************
+2022-07-12 15:24:58,911 p=121610 u=anevdokimov n=ansible | 1nextgis01.dev.aorti.tech  : ok=3    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2022-07-12 15:28:11,529 p=130018 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to allow bad characters in group names by default, this will 
+change, but still be user configurable on deprecation. This feature will be removed in version 2.10. Deprecation warnings can be disabled by
+ setting deprecation_warnings=False in ansible.cfg.
+2022-07-12 15:28:11,529 p=130018 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2022-07-12 15:28:11,982 p=130018 u=anevdokimov n=ansible | PLAY [1nextgis01] ***************************************************************************************************************************
+2022-07-12 15:28:12,037 p=130018 u=anevdokimov n=ansible | TASK [1nextgis01 : Устанавливаем пакеты] ****************************************************************************************************
+2022-07-12 15:28:17,425 p=130018 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 15:28:17,438 p=130018 u=anevdokimov n=ansible | TASK [1nextgis01 : Настраиваем автозапуск сервисов] *****************************************************************************************
+2022-07-12 15:28:18,867 p=130018 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 15:28:18,876 p=130018 u=anevdokimov n=ansible | TASK [1nextgis01 : Delete /var/www/html folder] *********************************************************************************************
+2022-07-12 15:28:19,937 p=130018 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech]
+2022-07-12 15:28:19,953 p=130018 u=anevdokimov n=ansible | TASK [1nextgis01 : Copy our lending to /var/www/html folder] ********************************************************************************
+2022-07-12 15:28:20,217 p=130018 u=anevdokimov n=ansible | fatal: [1nextgis01.dev.aorti.tech]: FAILED! => {
+    "changed": false
+}
+
+MSG:
+
+src (or content) is required
+
+2022-07-12 15:28:20,219 p=130018 u=anevdokimov n=ansible | PLAY RECAP **********************************************************************************************************************************
+2022-07-12 15:28:20,332 p=130018 u=anevdokimov n=ansible | 1nextgis01.dev.aorti.tech  : ok=3    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2022-07-12 15:29:04,919 p=130209 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to allow bad characters in group names by default, this will 
+change, but still be user configurable on deprecation. This feature will be removed in version 2.10. Deprecation warnings can be disabled by
+ setting deprecation_warnings=False in ansible.cfg.
+2022-07-12 15:29:04,919 p=130209 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2022-07-12 15:29:05,384 p=130209 u=anevdokimov n=ansible | PLAY [1nextgis01] ***************************************************************************************************************************
+2022-07-12 15:29:05,435 p=130209 u=anevdokimov n=ansible | TASK [1nextgis01 : Устанавливаем пакеты] ****************************************************************************************************
+2022-07-12 15:29:08,999 p=130209 u=anevdokimov n=ansible |  [ERROR]: User interrupted execution
+
+2022-07-12 15:29:16,840 p=130293 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to allow bad characters in group names by default, this will 
+change, but still be user configurable on deprecation. This feature will be removed in version 2.10. Deprecation warnings can be disabled by
+ setting deprecation_warnings=False in ansible.cfg.
+2022-07-12 15:29:16,840 p=130293 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2022-07-12 15:29:17,304 p=130293 u=anevdokimov n=ansible | PLAY [1nextgis01] ***************************************************************************************************************************
+2022-07-12 15:29:17,351 p=130293 u=anevdokimov n=ansible | TASK [1nextgis01 : Copy our lending to /var/www/html folder] ********************************************************************************
+2022-07-12 15:29:17,648 p=130293 u=anevdokimov n=ansible | fatal: [1nextgis01.dev.aorti.tech]: FAILED! => {
+    "changed": false
+}
+
+MSG:
+
+src (or content) is required
+
+2022-07-12 15:29:17,649 p=130293 u=anevdokimov n=ansible | PLAY RECAP **********************************************************************************************************************************
+2022-07-12 15:29:17,650 p=130293 u=anevdokimov n=ansible | 1nextgis01.dev.aorti.tech  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2022-07-12 15:30:23,659 p=130543 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to allow bad characters in group names by default, this will 
+change, but still be user configurable on deprecation. This feature will be removed in version 2.10. Deprecation warnings can be disabled by
+ setting deprecation_warnings=False in ansible.cfg.
+2022-07-12 15:30:23,660 p=130543 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2022-07-12 15:30:24,154 p=130543 u=anevdokimov n=ansible | PLAY [1nextgis01] ***************************************************************************************************************************
+2022-07-12 15:30:24,204 p=130543 u=anevdokimov n=ansible | TASK [1nextgis01 : Устанавливаем пакеты] ****************************************************************************************************
+2022-07-12 15:30:28,809 p=130543 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 15:30:28,823 p=130543 u=anevdokimov n=ansible | TASK [1nextgis01 : Настраиваем автозапуск сервисов] *****************************************************************************************
+2022-07-12 15:30:30,178 p=130543 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 15:30:30,193 p=130543 u=anevdokimov n=ansible | TASK [1nextgis01 : Delete /var/www/html folder] *********************************************************************************************
+2022-07-12 15:30:31,231 p=130543 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech]
+2022-07-12 15:30:31,241 p=130543 u=anevdokimov n=ansible | TASK [1nextgis01 : Copy our lending to /var/www/html folder] ********************************************************************************
+2022-07-12 15:30:31,525 p=130543 u=anevdokimov n=ansible | An exception occurred during task execution. To see the full traceback, use -vvv. The error was: If you are using a module and expect the file to exist on the remote, see the remote_src option
+2022-07-12 15:30:31,526 p=130543 u=anevdokimov n=ansible | fatal: [1nextgis01.dev.aorti.tech]: FAILED! => {
+    "changed": false
+}
+
+MSG:
+
+Could not find or access '~/files/html' on the Ansible Controller.
+If you are using a module and expect the file to exist on the remote, see the remote_src option
+
+2022-07-12 15:30:31,529 p=130543 u=anevdokimov n=ansible | PLAY RECAP **********************************************************************************************************************************
+2022-07-12 15:30:31,530 p=130543 u=anevdokimov n=ansible | 1nextgis01.dev.aorti.tech  : ok=3    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2022-07-12 15:31:15,673 p=130807 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to allow bad characters in group names by default, this will 
+change, but still be user configurable on deprecation. This feature will be removed in version 2.10. Deprecation warnings can be disabled by
+ setting deprecation_warnings=False in ansible.cfg.
+2022-07-12 15:31:15,674 p=130807 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2022-07-12 15:31:16,199 p=130807 u=anevdokimov n=ansible | PLAY [1nextgis01] ***************************************************************************************************************************
+2022-07-12 15:31:16,246 p=130807 u=anevdokimov n=ansible | TASK [1nextgis01 : Устанавливаем пакеты] ****************************************************************************************************
+2022-07-12 15:31:20,624 p=130807 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 15:31:20,635 p=130807 u=anevdokimov n=ansible | TASK [1nextgis01 : Настраиваем автозапуск сервисов] *****************************************************************************************
+2022-07-12 15:31:22,096 p=130807 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 15:31:22,102 p=130807 u=anevdokimov n=ansible | TASK [1nextgis01 : Delete /var/www/html folder] *********************************************************************************************
+2022-07-12 15:31:23,215 p=130807 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech]
+2022-07-12 15:31:23,228 p=130807 u=anevdokimov n=ansible | TASK [1nextgis01 : Copy our lending to /var/www/html folder] ********************************************************************************
+2022-07-12 15:31:40,439 p=130807 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech]
+2022-07-12 15:31:40,451 p=130807 u=anevdokimov n=ansible | TASK [1nextgis01 : Запускаем] ***************************************************************************************************************
+2022-07-12 15:31:42,105 p=130807 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 15:31:42,109 p=130807 u=anevdokimov n=ansible | PLAY RECAP **********************************************************************************************************************************
+2022-07-12 15:31:42,110 p=130807 u=anevdokimov n=ansible | 1nextgis01.dev.aorti.tech  : ok=5    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-07-12 15:44:30,197 p=166665 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to allow bad characters in group names by default, this will 
+change, but still be user configurable on deprecation. This feature will be removed in version 2.10. Deprecation warnings can be disabled by
+ setting deprecation_warnings=False in ansible.cfg.
+2022-07-12 15:44:30,197 p=166665 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2022-07-12 15:44:30,683 p=166665 u=anevdokimov n=ansible | PLAY [1nextgis01] ***************************************************************************************************************************
+2022-07-12 15:44:30,751 p=166665 u=anevdokimov n=ansible | TASK [1nextgis01 : Устанавливаем пакеты] ****************************************************************************************************
+2022-07-12 15:44:35,577 p=166665 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 15:44:35,590 p=166665 u=anevdokimov n=ansible | TASK [1nextgis01 : Настраиваем автозапуск сервисов] *****************************************************************************************
+2022-07-12 15:44:37,452 p=166665 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 15:44:37,459 p=166665 u=anevdokimov n=ansible | TASK [1nextgis01 : Delete /var/www/html folder] *********************************************************************************************
+2022-07-12 15:44:38,767 p=166665 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech]
+2022-07-12 15:44:38,781 p=166665 u=anevdokimov n=ansible | TASK [1nextgis01 : Copy our lending to /var/www/html folder] ********************************************************************************
+2022-07-12 15:44:55,413 p=166665 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech]
+2022-07-12 15:44:55,424 p=166665 u=anevdokimov n=ansible | TASK [1nextgis01 : Запускаем] ***************************************************************************************************************
+2022-07-12 15:44:57,034 p=166665 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 15:44:57,039 p=166665 u=anevdokimov n=ansible | PLAY RECAP **********************************************************************************************************************************
+2022-07-12 15:44:57,040 p=166665 u=anevdokimov n=ansible | 1nextgis01.dev.aorti.tech  : ok=5    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-07-12 15:45:55,827 p=167185 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to allow bad characters in group names by default, this will 
+change, but still be user configurable on deprecation. This feature will be removed in version 2.10. Deprecation warnings can be disabled by
+ setting deprecation_warnings=False in ansible.cfg.
+2022-07-12 15:45:55,827 p=167185 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2022-07-12 15:45:56,434 p=167185 u=anevdokimov n=ansible | PLAY [1nextgis01] ***************************************************************************************************************************
+2022-07-12 15:45:56,481 p=167185 u=anevdokimov n=ansible | TASK [1nextgis01 : Устанавливаем пакеты] ****************************************************************************************************
+2022-07-12 15:46:01,082 p=167185 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 15:46:01,092 p=167185 u=anevdokimov n=ansible | TASK [1nextgis01 : Настраиваем автозапуск сервисов] *****************************************************************************************
+2022-07-12 15:46:02,452 p=167185 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 15:46:02,458 p=167185 u=anevdokimov n=ansible | TASK [1nextgis01 : Delete /usr/share/nginx/html] ********************************************************************************************
+2022-07-12 15:46:03,447 p=167185 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech]
+2022-07-12 15:46:03,457 p=167185 u=anevdokimov n=ansible | TASK [1nextgis01 : Copy our lending to /usr/share/nginx/html] *******************************************************************************
+2022-07-12 15:46:19,052 p=167185 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech]
+2022-07-12 15:46:19,061 p=167185 u=anevdokimov n=ansible | TASK [1nextgis01 : Запускаем] ***************************************************************************************************************
+2022-07-12 15:46:20,908 p=167185 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 15:46:20,910 p=167185 u=anevdokimov n=ansible | PLAY RECAP **********************************************************************************************************************************
+2022-07-12 15:46:20,915 p=167185 u=anevdokimov n=ansible | 1nextgis01.dev.aorti.tech  : ok=5    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-07-12 15:58:08,827 p=194202 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to allow bad characters in group names by default, this will 
+change, but still be user configurable on deprecation. This feature will be removed in version 2.10. Deprecation warnings can be disabled by
+ setting deprecation_warnings=False in ansible.cfg.
+2022-07-12 15:58:08,828 p=194202 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2022-07-12 15:58:08,833 p=194202 u=anevdokimov n=ansible | [WARNING]:  * Failed to parse /home/anevdokimov/Documents/GIT/apache2-ans/inventory with yaml plugin: Syntax Error while loading YAML.   did
+not find expected <document start>  The error appears to be in '/home/anevdokimov/Documents/GIT/apache2-ans/inventory': line 3, column 1,
+but may be elsewhere in the file depending on the exact syntax problem.  The offending line appears to be:   deployuser=anevdokimov ^ here
+
+2022-07-12 15:58:08,833 p=194202 u=anevdokimov n=ansible | [WARNING]:  * Failed to parse /home/anevdokimov/Documents/GIT/apache2-ans/inventory with ini plugin:
+/home/anevdokimov/Documents/GIT/apache2-ans/inventory:7: Expected key=value host variable assignment, got: domain:1nextgis01.dev.aorti.tech
+
+2022-07-12 15:58:08,835 p=194202 u=anevdokimov n=ansible | [WARNING]: Unable to parse /home/anevdokimov/Documents/GIT/apache2-ans/inventory as an inventory source
+
+2022-07-12 15:58:08,837 p=194202 u=anevdokimov n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2022-07-12 15:58:08,843 p=194202 u=anevdokimov n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2022-07-12 15:58:09,393 p=194202 u=anevdokimov n=ansible | PLAY [1nextgis01] ***************************************************************************************************************************
+2022-07-12 15:58:09,393 p=194202 u=anevdokimov n=ansible | skipping: no hosts matched
+2022-07-12 15:58:09,395 p=194202 u=anevdokimov n=ansible | PLAY RECAP **********************************************************************************************************************************
+2022-07-12 15:59:24,025 p=194427 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to allow bad characters in group names by default, this will 
+change, but still be user configurable on deprecation. This feature will be removed in version 2.10. Deprecation warnings can be disabled by
+ setting deprecation_warnings=False in ansible.cfg.
+2022-07-12 15:59:24,026 p=194427 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2022-07-12 15:59:24,560 p=194427 u=anevdokimov n=ansible | PLAY [1nextgis01] ***************************************************************************************************************************
+2022-07-12 15:59:24,617 p=194427 u=anevdokimov n=ansible | TASK [1nextgis01 : Устанавливаем пакеты] ****************************************************************************************************
+2022-07-12 15:59:29,561 p=194427 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 15:59:29,570 p=194427 u=anevdokimov n=ansible | TASK [1nextgis01 : Настраиваем автозапуск сервисов] *****************************************************************************************
+2022-07-12 15:59:31,164 p=194427 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 15:59:31,176 p=194427 u=anevdokimov n=ansible | TASK [1nextgis01 : create www directory] ****************************************************************************************************
+2022-07-12 15:59:32,562 p=194427 u=anevdokimov n=ansible | fatal: [1nextgis01.dev.aorti.tech]: FAILED! => {
+    "changed": false,
+    "gid": 0,
+    "group": "root",
+    "mode": "0755",
+    "owner": "anevdokimov",
+    "path": "/var/www/1nextgis01.dev.aorti.tech",
+    "size": 6,
+    "state": "directory",
+    "uid": 2597
+}
+
+MSG:
+
+chgrp failed: failed to look up group anevdokimov
+
+2022-07-12 15:59:32,564 p=194427 u=anevdokimov n=ansible | PLAY RECAP **********************************************************************************************************************************
+2022-07-12 15:59:32,752 p=194427 u=anevdokimov n=ansible | 1nextgis01.dev.aorti.tech  : ok=2    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2022-07-12 16:00:50,869 p=194733 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to allow bad characters in group names by default, this will 
+change, but still be user configurable on deprecation. This feature will be removed in version 2.10. Deprecation warnings can be disabled by
+ setting deprecation_warnings=False in ansible.cfg.
+2022-07-12 16:00:50,870 p=194733 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2022-07-12 16:00:51,364 p=194733 u=anevdokimov n=ansible | PLAY [1nextgis01] ***************************************************************************************************************************
+2022-07-12 16:00:51,414 p=194733 u=anevdokimov n=ansible | TASK [1nextgis01 : Устанавливаем пакеты] ****************************************************************************************************
+2022-07-12 16:00:55,775 p=194733 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 16:00:55,783 p=194733 u=anevdokimov n=ansible | TASK [1nextgis01 : Настраиваем автозапуск сервисов] *****************************************************************************************
+2022-07-12 16:00:57,641 p=194733 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 16:00:57,652 p=194733 u=anevdokimov n=ansible | TASK [1nextgis01 : create www directory] ****************************************************************************************************
+2022-07-12 16:00:59,036 p=194733 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech]
+2022-07-12 16:00:59,046 p=194733 u=anevdokimov n=ansible | TASK [1nextgis01 : delete default nginx site] ***********************************************************************************************
+2022-07-12 16:01:00,350 p=194733 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech]
+2022-07-12 16:01:00,358 p=194733 u=anevdokimov n=ansible | TASK [1nextgis01 : copy nginx site.conf] ****************************************************************************************************
+2022-07-12 16:01:00,759 p=194733 u=anevdokimov n=ansible | fatal: [1nextgis01.dev.aorti.tech]: FAILED! => {
+    "changed": false
+}
+
+MSG:
+
+Could not find or access 'site.conf.j2'
+Searched in:
+	/home/anevdokimov/Documents/GIT/apache2-ans/roles/1nextgis01/templates/site.conf.j2
+	/home/anevdokimov/Documents/GIT/apache2-ans/roles/1nextgis01/site.conf.j2
+	/home/anevdokimov/Documents/GIT/apache2-ans/roles/1nextgis01/tasks/templates/site.conf.j2
+	/home/anevdokimov/Documents/GIT/apache2-ans/roles/1nextgis01/tasks/site.conf.j2
+	/home/anevdokimov/Documents/GIT/apache2-ans/templates/site.conf.j2
+	/home/anevdokimov/Documents/GIT/apache2-ans/site.conf.j2 on the Ansible Controller.
+If you are using a module and expect the file to exist on the remote, see the remote_src option
+
+2022-07-12 16:01:00,760 p=194733 u=anevdokimov n=ansible | PLAY RECAP **********************************************************************************************************************************
+2022-07-12 16:01:00,761 p=194733 u=anevdokimov n=ansible | 1nextgis01.dev.aorti.tech  : ok=4    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2022-07-12 16:01:38,565 p=194933 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to allow bad characters in group names by default, this will 
+change, but still be user configurable on deprecation. This feature will be removed in version 2.10. Deprecation warnings can be disabled by
+ setting deprecation_warnings=False in ansible.cfg.
+2022-07-12 16:01:38,565 p=194933 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2022-07-12 16:01:39,047 p=194933 u=anevdokimov n=ansible | PLAY [1nextgis01] ***************************************************************************************************************************
+2022-07-12 16:01:39,103 p=194933 u=anevdokimov n=ansible | TASK [1nextgis01 : Устанавливаем пакеты] ****************************************************************************************************
+2022-07-12 16:01:43,190 p=194933 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 16:01:43,199 p=194933 u=anevdokimov n=ansible | TASK [1nextgis01 : Настраиваем автозапуск сервисов] *****************************************************************************************
+2022-07-12 16:01:44,663 p=194933 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 16:01:44,671 p=194933 u=anevdokimov n=ansible | TASK [1nextgis01 : create www directory] ****************************************************************************************************
+2022-07-12 16:01:45,768 p=194933 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech]
+2022-07-12 16:01:45,774 p=194933 u=anevdokimov n=ansible | TASK [1nextgis01 : delete default nginx site] ***********************************************************************************************
+2022-07-12 16:01:46,736 p=194933 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech]
+2022-07-12 16:01:46,746 p=194933 u=anevdokimov n=ansible | TASK [1nextgis01 : copy nginx site.conf] ****************************************************************************************************
+2022-07-12 16:01:47,078 p=194933 u=anevdokimov n=ansible | fatal: [1nextgis01.dev.aorti.tech]: FAILED! => {
+    "changed": false
+}
+
+MSG:
+
+Could not find or access 'site.conf.j2'
+Searched in:
+	/home/anevdokimov/Documents/GIT/apache2-ans/roles/1nextgis01/templates/site.conf.j2
+	/home/anevdokimov/Documents/GIT/apache2-ans/roles/1nextgis01/site.conf.j2
+	/home/anevdokimov/Documents/GIT/apache2-ans/roles/1nextgis01/tasks/templates/site.conf.j2
+	/home/anevdokimov/Documents/GIT/apache2-ans/roles/1nextgis01/tasks/site.conf.j2
+	/home/anevdokimov/Documents/GIT/apache2-ans/templates/site.conf.j2
+	/home/anevdokimov/Documents/GIT/apache2-ans/site.conf.j2 on the Ansible Controller.
+If you are using a module and expect the file to exist on the remote, see the remote_src option
+
+2022-07-12 16:01:47,080 p=194933 u=anevdokimov n=ansible | PLAY RECAP **********************************************************************************************************************************
+2022-07-12 16:01:47,081 p=194933 u=anevdokimov n=ansible | 1nextgis01.dev.aorti.tech  : ok=4    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2022-07-12 16:02:21,431 p=202565 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to allow bad characters in group names by default, this will 
+change, but still be user configurable on deprecation. This feature will be removed in version 2.10. Deprecation warnings can be disabled by
+ setting deprecation_warnings=False in ansible.cfg.
+2022-07-12 16:02:21,432 p=202565 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2022-07-12 16:02:21,897 p=202565 u=anevdokimov n=ansible | PLAY [1nextgis01] ***************************************************************************************************************************
+2022-07-12 16:02:21,955 p=202565 u=anevdokimov n=ansible | TASK [1nextgis01 : Устанавливаем пакеты] ****************************************************************************************************
+2022-07-12 16:02:25,903 p=202565 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 16:02:25,910 p=202565 u=anevdokimov n=ansible | TASK [1nextgis01 : Настраиваем автозапуск сервисов] *****************************************************************************************
+2022-07-12 16:02:27,368 p=202565 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 16:02:27,378 p=202565 u=anevdokimov n=ansible | TASK [1nextgis01 : create www directory] ****************************************************************************************************
+2022-07-12 16:02:28,616 p=202565 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech]
+2022-07-12 16:02:28,623 p=202565 u=anevdokimov n=ansible | TASK [1nextgis01 : delete default nginx site] ***********************************************************************************************
+2022-07-12 16:02:29,585 p=202565 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech]
+2022-07-12 16:02:29,592 p=202565 u=anevdokimov n=ansible | TASK [1nextgis01 : copy nginx site.conf] ****************************************************************************************************
+2022-07-12 16:02:31,771 p=202565 u=anevdokimov n=ansible | fatal: [1nextgis01.dev.aorti.tech]: FAILED! => {
+    "changed": false,
+    "checksum": "6164f84a915e866be703e039b93182945375c5ae"
+}
+
+MSG:
+
+Destination directory /etc/nginx/sites-enabled does not exist
+
+2022-07-12 16:02:31,773 p=202565 u=anevdokimov n=ansible | PLAY RECAP **********************************************************************************************************************************
+2022-07-12 16:02:31,774 p=202565 u=anevdokimov n=ansible | 1nextgis01.dev.aorti.tech  : ok=4    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2022-07-12 16:08:08,412 p=210924 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to allow bad characters in group names by default, this will 
+change, but still be user configurable on deprecation. This feature will be removed in version 2.10. Deprecation warnings can be disabled by
+ setting deprecation_warnings=False in ansible.cfg.
+2022-07-12 16:08:08,412 p=210924 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2022-07-12 16:08:08,954 p=210924 u=anevdokimov n=ansible | PLAY [1nextgis01] ***************************************************************************************************************************
+2022-07-12 16:08:09,027 p=210924 u=anevdokimov n=ansible | TASK [1nextgis01 : Устанавливаем пакеты] ****************************************************************************************************
+2022-07-12 16:08:13,963 p=210924 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 16:08:13,989 p=210924 u=anevdokimov n=ansible | TASK [1nextgis01 : Настраиваем автозапуск сервисов] *****************************************************************************************
+2022-07-12 16:08:15,434 p=210924 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 16:08:15,442 p=210924 u=anevdokimov n=ansible | TASK [1nextgis01 : create www directory] ****************************************************************************************************
+2022-07-12 16:08:16,661 p=210924 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech]
+2022-07-12 16:08:16,670 p=210924 u=anevdokimov n=ansible | TASK [1nextgis01 : delete default nginx site] ***********************************************************************************************
+2022-07-12 16:08:17,700 p=210924 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech]
+2022-07-12 16:08:17,713 p=210924 u=anevdokimov n=ansible | TASK [1nextgis01 : copy nginx site.conf] ****************************************************************************************************
+2022-07-12 16:08:20,062 p=210924 u=anevdokimov n=ansible | ERROR! The requested handler 'restart nginx' was not found in either the main handlers list nor in the listening handlers list
+2022-07-12 16:09:12,097 p=211223 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to allow bad characters in group names by default, this will 
+change, but still be user configurable on deprecation. This feature will be removed in version 2.10. Deprecation warnings can be disabled by
+ setting deprecation_warnings=False in ansible.cfg.
+2022-07-12 16:09:12,097 p=211223 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2022-07-12 16:09:12,514 p=211223 u=anevdokimov n=ansible | ERROR! conflicting action statements: ansible.builtin.service, handlers
+
+The error appears to be in '/home/anevdokimov/Documents/GIT/apache2-ans/roles/1nextgis01/tasks/main.yml': line 59, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Запускаем
+  ^ here
+
+2022-07-12 16:09:39,565 p=211300 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to allow bad characters in group names by default, this will 
+change, but still be user configurable on deprecation. This feature will be removed in version 2.10. Deprecation warnings can be disabled by
+ setting deprecation_warnings=False in ansible.cfg.
+2022-07-12 16:09:39,566 p=211300 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2022-07-12 16:09:39,947 p=211300 u=anevdokimov n=ansible | ERROR! Syntax Error while loading YAML.
+  did not find expected '-' indicator
+
+The error appears to be in '/home/anevdokimov/Documents/GIT/apache2-ans/roles/1nextgis01/tasks/main.yml': line 67, column 1, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+handlers:
+^ here
+
+2022-07-12 16:12:01,109 p=219623 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to allow bad characters in group names by default, this will 
+change, but still be user configurable on deprecation. This feature will be removed in version 2.10. Deprecation warnings can be disabled by
+ setting deprecation_warnings=False in ansible.cfg.
+2022-07-12 16:12:01,109 p=219623 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2022-07-12 16:12:01,503 p=219623 u=anevdokimov n=ansible | [WARNING]: While constructing a mapping from /home/anevdokimov/Documents/GIT/apache2-ans/roles/1nextgis01/handlers/main.yml, line 2, column
+3, found a duplicate dict key (name). Using last defined value only.
+
+2022-07-12 16:12:01,506 p=219623 u=anevdokimov n=ansible | ERROR! conflicting action statements: service, state
+
+The error appears to be in '/home/anevdokimov/Documents/GIT/apache2-ans/roles/1nextgis01/handlers/main.yml': line 2, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+- name: restart nginx
+  ^ here
+
+2022-07-12 16:12:18,676 p=220113 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to allow bad characters in group names by default, this will 
+change, but still be user configurable on deprecation. This feature will be removed in version 2.10. Deprecation warnings can be disabled by
+ setting deprecation_warnings=False in ansible.cfg.
+2022-07-12 16:12:18,676 p=220113 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2022-07-12 16:12:19,182 p=220113 u=anevdokimov n=ansible | PLAY [1nextgis01] ***************************************************************************************************************************
+2022-07-12 16:12:19,228 p=220113 u=anevdokimov n=ansible | TASK [1nextgis01 : Устанавливаем пакеты] ****************************************************************************************************
+2022-07-12 16:12:24,223 p=220113 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 16:12:24,242 p=220113 u=anevdokimov n=ansible | TASK [1nextgis01 : Настраиваем автозапуск сервисов] *****************************************************************************************
+2022-07-12 16:12:25,820 p=220113 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 16:12:25,829 p=220113 u=anevdokimov n=ansible | TASK [1nextgis01 : create www directory] ****************************************************************************************************
+2022-07-12 16:12:26,978 p=220113 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech]
+2022-07-12 16:12:26,989 p=220113 u=anevdokimov n=ansible | TASK [1nextgis01 : delete default nginx site] ***********************************************************************************************
+2022-07-12 16:12:28,089 p=220113 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech]
+2022-07-12 16:12:28,103 p=220113 u=anevdokimov n=ansible | TASK [1nextgis01 : copy nginx site.conf] ****************************************************************************************************
+2022-07-12 16:12:30,103 p=220113 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech]
+2022-07-12 16:12:30,114 p=220113 u=anevdokimov n=ansible | TASK [1nextgis01 : Delete /var/www/] ********************************************************************************************************
+2022-07-12 16:12:31,272 p=220113 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech]
+2022-07-12 16:12:31,333 p=220113 u=anevdokimov n=ansible | TASK [1nextgis01 : Copy our lending to /var/www/1nextgis01.dev.aorti.tech] ******************************************************************
+2022-07-12 16:12:46,871 p=220113 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech]
+2022-07-12 16:12:46,880 p=220113 u=anevdokimov n=ansible | TASK [1nextgis01 : Запускаем] ***************************************************************************************************************
+2022-07-12 16:12:48,375 p=220113 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 16:12:48,378 p=220113 u=anevdokimov n=ansible | PLAY RECAP **********************************************************************************************************************************
+2022-07-12 16:12:48,378 p=220113 u=anevdokimov n=ansible | 1nextgis01.dev.aorti.tech  : ok=8    changed=3    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-07-12 16:33:46,875 p=266356 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to allow bad characters in group names by default, this will 
+change, but still be user configurable on deprecation. This feature will be removed in version 2.10. Deprecation warnings can be disabled by
+ setting deprecation_warnings=False in ansible.cfg.
+2022-07-12 16:33:46,875 p=266356 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2022-07-12 16:33:47,430 p=266356 u=anevdokimov n=ansible | PLAY [1nextgis01] ***************************************************************************************************************************
+2022-07-12 16:33:47,486 p=266356 u=anevdokimov n=ansible | TASK [1nextgis01 : Устанавливаем пакеты] ****************************************************************************************************
+2022-07-12 16:33:52,099 p=266356 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 16:33:52,112 p=266356 u=anevdokimov n=ansible | TASK [1nextgis01 : Настраиваем автозапуск сервисов] *****************************************************************************************
+2022-07-12 16:33:53,707 p=266356 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 16:33:53,717 p=266356 u=anevdokimov n=ansible | TASK [1nextgis01 : create www directory] ****************************************************************************************************
+2022-07-12 16:33:54,950 p=266356 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech]
+2022-07-12 16:33:54,961 p=266356 u=anevdokimov n=ansible | TASK [1nextgis01 : delete default nginx site] ***********************************************************************************************
+2022-07-12 16:33:55,976 p=266356 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech]
+2022-07-12 16:33:55,985 p=266356 u=anevdokimov n=ansible | TASK [1nextgis01 : copy nginx site.conf] ****************************************************************************************************
+2022-07-12 16:33:58,390 p=266356 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech]
+2022-07-12 16:33:58,400 p=266356 u=anevdokimov n=ansible | TASK [1nextgis01 : Delete /var/www/] ********************************************************************************************************
+2022-07-12 16:33:59,723 p=266356 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech]
+2022-07-12 16:33:59,787 p=266356 u=anevdokimov n=ansible | TASK [1nextgis01 : Copy 1 our lending to /var/www/1nextgis01.dev.aorti.tech] ****************************************************************
+2022-07-12 16:34:04,077 p=266356 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech]
+2022-07-12 16:34:04,089 p=266356 u=anevdokimov n=ansible | TASK [1nextgis01 : Copy 2 our lending to /var/www/1nextgis01.dev.aorti.tech] ****************************************************************
+2022-07-12 16:34:06,124 p=266356 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech]
+2022-07-12 16:34:06,134 p=266356 u=anevdokimov n=ansible | TASK [1nextgis01 : Copy 3 our lending to /var/www/1nextgis01.dev.aorti.tech] ****************************************************************
+2022-07-12 16:34:13,494 p=266356 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech]
+2022-07-12 16:34:13,509 p=266356 u=anevdokimov n=ansible | TASK [1nextgis01 : Copy 4 our lending to /var/www/1nextgis01.dev.aorti.tech] ****************************************************************
+2022-07-12 16:34:16,299 p=266356 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech]
+2022-07-12 16:34:16,310 p=266356 u=anevdokimov n=ansible | TASK [1nextgis01 : Запускаем] ***************************************************************************************************************
+2022-07-12 16:34:17,818 p=266356 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 16:34:17,821 p=266356 u=anevdokimov n=ansible | RUNNING HANDLER [1nextgis01 : restart nginx] ************************************************************************************************
+2022-07-12 16:34:19,064 p=266356 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech]
+2022-07-12 16:34:19,066 p=266356 u=anevdokimov n=ansible | PLAY RECAP **********************************************************************************************************************************
+2022-07-12 16:34:19,067 p=266356 u=anevdokimov n=ansible | 1nextgis01.dev.aorti.tech  : ok=12   changed=7    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-07-12 16:36:48,089 p=273631 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to allow bad characters in group names by default, this will 
+change, but still be user configurable on deprecation. This feature will be removed in version 2.10. Deprecation warnings can be disabled by
+ setting deprecation_warnings=False in ansible.cfg.
+2022-07-12 16:36:48,089 p=273631 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use -vvvv to see details
+
+2022-07-12 16:36:48,629 p=273631 u=anevdokimov n=ansible | PLAY [1nextgis01] ***************************************************************************************************************************
+2022-07-12 16:36:48,677 p=273631 u=anevdokimov n=ansible | TASK [1nextgis01 : Устанавливаем пакеты] ****************************************************************************************************
+2022-07-12 16:36:55,329 p=273631 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 16:36:55,336 p=273631 u=anevdokimov n=ansible | TASK [1nextgis01 : Настраиваем автозапуск сервисов] *****************************************************************************************
+2022-07-12 16:36:56,826 p=273631 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 16:36:56,837 p=273631 u=anevdokimov n=ansible | TASK [1nextgis01 : create www directory] ****************************************************************************************************
+2022-07-12 16:36:58,024 p=273631 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech]
+2022-07-12 16:36:58,032 p=273631 u=anevdokimov n=ansible | TASK [1nextgis01 : delete default nginx site] ***********************************************************************************************
+2022-07-12 16:36:59,037 p=273631 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech]
+2022-07-12 16:36:59,043 p=273631 u=anevdokimov n=ansible | TASK [1nextgis01 : copy nginx site.conf] ****************************************************************************************************
+2022-07-12 16:37:01,132 p=273631 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech]
+2022-07-12 16:37:01,141 p=273631 u=anevdokimov n=ansible | TASK [1nextgis01 : Delete /var/www/] ********************************************************************************************************
+2022-07-12 16:37:02,266 p=273631 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech]
+2022-07-12 16:37:02,316 p=273631 u=anevdokimov n=ansible | TASK [1nextgis01 : Copy 1 our lending to /var/www/1nextgis01.dev.aorti.tech] ****************************************************************
+2022-07-12 16:37:05,787 p=273631 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech]
+2022-07-12 16:37:05,798 p=273631 u=anevdokimov n=ansible | TASK [1nextgis01 : Copy 2 our lending to /var/www/1nextgis01.dev.aorti.tech] ****************************************************************
+2022-07-12 16:37:07,574 p=273631 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech]
+2022-07-12 16:37:07,589 p=273631 u=anevdokimov n=ansible | TASK [1nextgis01 : Copy 3 our lending to /var/www/1nextgis01.dev.aorti.tech] ****************************************************************
+2022-07-12 16:37:14,197 p=273631 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech]
+2022-07-12 16:37:14,209 p=273631 u=anevdokimov n=ansible | TASK [1nextgis01 : Copy 4 our lending to /var/www/1nextgis01.dev.aorti.tech] ****************************************************************
+2022-07-12 16:37:16,855 p=273631 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech]
+2022-07-12 16:37:16,866 p=273631 u=anevdokimov n=ansible | TASK [1nextgis01 : Запускаем] ***************************************************************************************************************
+2022-07-12 16:37:18,336 p=273631 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-12 16:37:18,340 p=273631 u=anevdokimov n=ansible | RUNNING HANDLER [1nextgis01 : restart nginx] ************************************************************************************************
+2022-07-12 16:37:19,553 p=273631 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech]
+2022-07-12 16:37:19,557 p=273631 u=anevdokimov n=ansible | PLAY RECAP **********************************************************************************************************************************
+2022-07-12 16:37:19,558 p=273631 u=anevdokimov n=ansible | 1nextgis01.dev.aorti.tech  : ok=12   changed=10   unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2022-07-15 09:45:15,943 p=97048 u=anevdokimov n=ansible | [DEPRECATION WARNING]: The TRANSFORM_INVALID_GROUP_CHARS settings is set to 
+allow bad characters in group names by default, this will change, but still be 
+user configurable on deprecation. This feature will be removed in version 2.10.
+ Deprecation warnings can be disabled by setting deprecation_warnings=False in 
+ansible.cfg.
+2022-07-15 09:45:15,943 p=97048 u=anevdokimov n=ansible | [WARNING]: Invalid characters were found in group names but not replaced, use
+-vvvv to see details
+
+2022-07-15 09:45:16,704 p=97048 u=anevdokimov n=ansible | PLAY [1nextgis01] **************************************************************
+2022-07-15 09:45:16,756 p=97048 u=anevdokimov n=ansible | TASK [Gathering Facts] *********************************************************
+2022-07-15 09:45:20,056 p=97048 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech]
+2022-07-15 09:45:20,067 p=97048 u=anevdokimov n=ansible | TASK [1nextgis01 : Устанавливаем пакеты] ***************************************
+2022-07-15 09:45:39,798 p=97048 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-15 09:45:39,807 p=97048 u=anevdokimov n=ansible | TASK [1nextgis01 : Настраиваем автозапуск сервисов] ****************************
+2022-07-15 09:45:41,285 p=97048 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-15 09:45:41,297 p=97048 u=anevdokimov n=ansible | TASK [1nextgis01 : create www directory] ***************************************
+2022-07-15 09:45:42,404 p=97048 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech]
+2022-07-15 09:45:42,415 p=97048 u=anevdokimov n=ansible | TASK [1nextgis01 : delete default nginx site] **********************************
+2022-07-15 09:45:43,512 p=97048 u=anevdokimov n=ansible | ok: [1nextgis01.dev.aorti.tech]
+2022-07-15 09:45:43,523 p=97048 u=anevdokimov n=ansible | TASK [1nextgis01 : copy nginx site.conf] ***************************************
+2022-07-15 09:45:45,762 p=97048 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech]
+2022-07-15 09:45:45,814 p=97048 u=anevdokimov n=ansible | TASK [1nextgis01 : Copy 1 our lending to /var/www/1nextgis01.dev.aorti.tech] ***
+2022-07-15 09:45:49,242 p=97048 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech]
+2022-07-15 09:45:49,251 p=97048 u=anevdokimov n=ansible | TASK [1nextgis01 : Copy 2 our lending to /var/www/1nextgis01.dev.aorti.tech] ***
+2022-07-15 09:45:51,190 p=97048 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech]
+2022-07-15 09:45:51,204 p=97048 u=anevdokimov n=ansible | TASK [1nextgis01 : Copy 3 our lending to /var/www/1nextgis01.dev.aorti.tech] ***
+2022-07-15 09:45:57,091 p=97048 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech]
+2022-07-15 09:45:57,103 p=97048 u=anevdokimov n=ansible | TASK [1nextgis01 : Copy 4 our lending to /var/www/1nextgis01.dev.aorti.tech] ***
+2022-07-15 09:45:59,543 p=97048 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech]
+2022-07-15 09:45:59,552 p=97048 u=anevdokimov n=ansible | TASK [1nextgis01 : Запускаем] **************************************************
+2022-07-15 09:46:00,996 p=97048 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech] => (item=nginx)
+2022-07-15 09:46:00,999 p=97048 u=anevdokimov n=ansible | RUNNING HANDLER [1nextgis01 : restart nginx] ***********************************
+2022-07-15 09:46:02,077 p=97048 u=anevdokimov n=ansible | changed: [1nextgis01.dev.aorti.tech]
+2022-07-15 09:46:02,079 p=97048 u=anevdokimov n=ansible | PLAY RECAP *********************************************************************
+2022-07-15 09:46:02,080 p=97048 u=anevdokimov n=ansible | 1nextgis01.dev.aorti.tech  : ok=12   changed=10   unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   

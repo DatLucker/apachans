@@ -1,0 +1,80 @@
+---
+
+
+- name: Устанавливаем пакеты 
+  ansible.builtin.package:
+    name: "{{ item }}"
+    state: latest
+    update_cache: true
+  loop:
+
+    - nginx
+
+
+- name: Настраиваем автозапуск сервисов
+  ansible.builtin.service:
+    name: "{{ item }}"
+    enabled: yes
+  loop:
+
+    - nginx
+
+- name: "create www directory"
+  file:
+    path: /var/www/{{ domain }}
+    state: directory
+
+
+
+- name: delete default nginx site
+  file:
+    path: /etc/nginx/sites-enabled/default
+    state: absent
+  notify: restart nginx
+
+- name: copy nginx site.conf
+  template:
+    src: nginx.conf
+    dest: /etc/nginx/nginx.conf
+    owner: root
+    group: root
+    mode: '0644'
+  notify: restart nginx
+
+
+
+# - name: "Delete /var/www/"
+#   ansible.builtin.file:
+#     path: "/var/www/html"
+#     state: "absent"
+
+- name: "Copy 1 our lending to /var/www/{{ domain }}"
+  ansible.builtin.copy:
+    src: "/home/anevdokimov/Documents/GIT/apache2-ans/files/html/css"
+    dest: "/var/www/{{ domain }}"
+
+- name: "Copy 2 our lending to /var/www/{{ domain }}"
+  ansible.builtin.copy:
+    src: "/home/anevdokimov/Documents/GIT/apache2-ans/files/html/images"
+    dest: "/var/www/{{ domain }}"
+
+- name: "Copy 3 our lending to /var/www/{{ domain }}"
+  ansible.builtin.copy:
+    src: "/home/anevdokimov/Documents/GIT/apache2-ans/files/html/js"
+    dest: "/var/www/{{ domain }}"
+
+- name: "Copy 4 our lending to /var/www/{{ domain }}"
+  ansible.builtin.copy:
+    src: "/home/anevdokimov/Documents/GIT/apache2-ans/files/html/index.html"
+    dest: "/var/www/{{ domain }}"
+
+- name: Запускаем 
+  ansible.builtin.service:
+    name: "{{ item }}"
+    state: restarted
+  loop: 
+
+   - nginx
+
+
+...

@@ -1,0 +1,8 @@
+[all:vars]
+
+deployuser=anevdokimov
+deploypass=Flagshtock454
+domain=1nextgis01.dev.aorti.tech
+
+[1nextgis01]
+'1nextgis01.dev.aorti.tech' ansible_user=anevdokimov ansible_password=Flagshtock454 
